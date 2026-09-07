@@ -38,7 +38,7 @@ Non-goals (giữ nguyên từ bản tư vấn): ký hiệu bàn cờ, nguyên t�
 
 Không phải một phase. Là điều kiện vào Phase 1. Chi tiết ở đầu [`phase-01`](./phase-01-ban-co-xe-tuong.md).
 
-- [ ] Bộ cờ trơn Staunton, ô ≥45–50 mm, quân đế nặng
+- [ ] **Có bộ cờ** (bất kỳ loại nào — không đặt điều kiện kích thước). Ưu tiên bộ trơn, không hoa văn, để bé nhận ra quân bằng hình dáng
 - [ ] 10–15 "xu" (đồng xu nhựa/nho khô) + 1 túi vải kín
 - [ ] Bảng 30 ô trên A4 dán tủ lạnh + bút màu cho bé tô
 - [ ] Người lớn học lại Tối A + Tối B (2 × 20 phút, **không có bé**) — mục 5.1 Nhịp 1
@@ -98,16 +98,17 @@ Nghiệm thu ở buổi 30, đối chiếu mục 8 của bản tư vấn.
 
 | # | Câu hỏi | Trả lời | Hệ quả với plan |
 |---|---|---|---|
-| 1 | Bộ cờ, ô bao nhiêu mm? | Đang mua, 1–2 ngày nữa có | Buổi 1 bắt đầu sau khi hàng về. **Kiểm khi nhận: ô ≥45mm, đế nặng.** Ô <40mm → đổi, đừng dùng |
+| 1 | Bộ cờ, ô bao nhiêu mm? | **Chưa mua.** Không quan tâm kích thước | Buổi 1 bắt đầu khi có bộ cờ. Không đặt điều kiện về ô/đế — dùng bộ nào cũng chạy được giáo trình này |
 | 2 | Chỗ bày cố định 6 tuần? | Có bàn học, **bày ra khi học rồi cất** | ⚠️ Khác khuyến nghị #1 của bản tư vấn — xem Rủi ro đã chấp nhận |
 | 3 | Bạn 5 tuổi cùng chơi? | **Không có** | ⚠️ Mất đòn tác động lớn nhất lên chỉ số "bé tự đòi chơi" — xem Rủi ro đã chấp nhận |
 | 4 | HLV dự bị? | **Không cần, bố/mẹ tự kèm** | ⚠️ Rủi ro phụ-huynh-bỏ-dở không được che — xem Rủi ro đã chấp nhận |
+| 5 | Bé đọc được chữ/số chưa? | **Đọc được cả chữ lẫn số** | Mở thêm lựa chọn từ buổi 17: puzzle **in trên giấy** dùng được, không phụ thuộc app. Bé tự đọc được bảng theo dõi 30 ô |
 | 6 | Ngân sách lớp 1 buổi/tuần? | **Không có.** Dạy hằng ngày, bé chán thì dừng, hôm sau tiếp | Khớp đúng Quy tắc 3 tín hiệu (5.3). Không có phương án lớp dự phòng |
+| 7 | Mốc thời gian bên ngoài trong 40–45 ngày? | **Không có mốc nào cần né** | Lịch chạy liên tục. Vẫn giữ ngân sách ~10 ngày nghỉ trong cửa sổ 45 ngày |
 
-**Còn treo (không chặn Phase 1):**
+**Không còn câu hỏi treo.** Điều kiện duy nhất để mở buổi 1: **có bộ cờ trong tay**.
 
-5. Bé đã đọc được chữ/số chưa? — ảnh hưởng thời điểm dùng puzzle in và app (từ buổi 17)
-7. Có mốc thời gian bên ngoài nào trong cửa sổ 40–45 ngày (khai giảng, chuyến đi, sinh nhật)?
+⚠️ **Lưu ý về câu 5 — bé đọc được chữ/số KHÔNG làm đổi non-goal.** Ký hiệu bàn cờ (e4, Nf3) vẫn **không dạy** trong 30 buổi, và vẫn **không nói toạ độ với bé**. Bé đọc được chữ chỉ mở ra puzzle in giấy như một lựa chọn thay app — không phải lý do để dạy ký hiệu sớm.
 
 ## Rủi ro đã chấp nhận
 

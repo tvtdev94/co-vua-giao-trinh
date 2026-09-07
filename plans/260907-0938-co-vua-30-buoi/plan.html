@@ -766,28 +766,33 @@ footer{padding:46px 0 0; text-align:center}
 <section>
   <div class="sec-head">
     <p class="eyebrow">§ 10 — Câu hỏi còn treo</p>
-    <h2>Không chặn Phase 1</h2>
+    <h2>Không còn — chỉ chờ bộ cờ</h2>
+    <p style="color:var(--muted)">
+      Bảy câu hỏi mở của bản tư vấn đã có câu trả lời (chốt 2026-09-07).
+      Điều kiện duy nhất để mở buổi 1: <b>có bộ cờ trong tay</b>.
+    </p>
   </div>
   <div class="two-col">
     <div>
       <div class="panel">
-        <h4>1. Bé đã đọc được chữ/số chưa?</h4>
-        <p style="margin:0">Ảnh hưởng thời điểm dùng puzzle in và app, từ buổi 17 trở đi. Không ảnh hưởng Phase 1.</p>
+        <h4>Bộ cờ — điều kiện duy nhất còn lại</h4>
+        <p style="margin:0"><b>Chưa mua.</b> Không đặt điều kiện kích thước ô hay trọng lượng đế — dùng bộ nào cũng chạy được giáo trình này. Ưu tiên bộ <b>trơn, không hoa văn</b> để bé nhận ra quân bằng hình dáng.</p>
       </div>
       <div class="panel" style="margin-top:18px">
-        <h4>2. Có mốc thời gian bên ngoài nào trong cửa sổ 40–45 ngày?</h4>
-        <p style="margin:0">Khai giảng, chuyến đi, sinh nhật — ảnh hưởng lịch chứ không ảnh hưởng nội dung.</p>
+        <h4>Bé đã đọc được chữ và số</h4>
+        <p>Mở thêm một lựa chọn từ buổi 17: <b>puzzle in trên giấy</b> dùng được, không phụ thuộc app. Bé cũng tự đọc được bảng theo dõi 30 ô.</p>
+        <p style="margin:0"><b>⚠ Không làm đổi non-goal.</b> Ký hiệu bàn cờ vẫn <b>không dạy</b> trong 30 buổi, và vẫn <b>không nói toạ độ với bé</b>. Đọc được chữ không phải lý do dạy ký hiệu sớm.</p>
       </div>
     </div>
     <div>
       <div class="panel">
-        <h4>3. Buổi 5 sau khi sửa chỉ còn <b>một</b> thứ tự đúng</h4>
+        <h4>Buổi 5 chỉ còn <b>một</b> thứ tự đúng</h4>
         <p>Ràng buộc hình học của quân Tượng: không tồn tại bộ 5 xu cùng màu vừa trải rộng vừa có ≥3 lời giải.</p>
         <p style="margin:0"><b>Đã chọn:</b> giữ bộ trải rộng, và <b>không đếm nước ở buổi 5</b> — tiêu chí "xong" của buổi này là <em>bé tự nói được màu ô của Tượng</em>, nên bé đi 6–7 nước vẫn đạt.</p>
       </div>
       <div class="panel" style="margin-top:18px">
-        <h4>4. Điều kiện vào Phase 1 — bộ cờ</h4>
-        <p style="margin:0">Đang mua. <b>Kiểm khi nhận:</b> ô ≥45mm, đế nặng. Ô &lt;40mm → đổi, đừng dùng. Buổi 1 bắt đầu sau khi hàng về.</p>
+        <h4>Không có mốc thời gian bên ngoài</h4>
+        <p style="margin:0">Không có khai giảng, chuyến đi hay sinh nhật nào cần né trong cửa sổ 40–45 ngày. Lịch chạy liên tục — vẫn giữ ngân sách <b>~10 ngày nghỉ</b> trong cửa sổ đó.</p>
       </div>
     </div>
   </div>
@@ -900,8 +905,8 @@ const BOARDS = [
     v:"0 nước-1-capture ✓" },
   { n:"Buổi 5", t:"Tượng c1 + 5 xu — đi chéo",
     p:{ c1:me("T"), b2:"coin", a3:"coin", c5:"coin", e3:"coin", g5:"coin" },
-    note:"<b>ĐÃ SỬA sau red-team.</b> Cả 5 xu ô đen <em>và</em> có đường ăn hết 5 nước: c1→b2→a3→c5→e3→g5. Bộ cũ (d4, f2) đúng màu nhưng <b>không tới được trong 5 nước</b>. Kiểm 2 bước: màu ô <em>và</em> tính tới được.",
-    v:"5/5 ô đen · đường 5 nước ✓" },
+    note:"<b>ĐÃ SỬA sau red-team.</b> Cả 5 xu ô đen <em>và</em> có đường ăn hết 5 nước: c1→b2→a3→c5→e3→g5. Bộ cũ (d4, f2) đúng màu nhưng <b>không tới được trong 5 nước</b>. Kiểm 2 bước: màu ô <em>và</em> tính tới được. <b>⚠ Buổi 5 KHÔNG đếm nước</b> — đường trên là <em>duy nhất</em>, bé đi 6–7 nước vẫn đạt. Đừng lấy số 5 làm mục tiêu và sửa bé lệch khỏi đường đó; tiêu chí buổi này là bé <em>tự nói được màu ô của Tượng</em>.",
+    v:"5/5 ô đen · đường 5 nước ✓ · không đếm nước" },
   { n:"Buổi 6", t:"Xe + Tượng hai bên — ván thật đầu tiên",
     p:{ b2:me("X"), e2:me("T"), d7:op("T"), g7:op("X") },
     note:"<b>ĐÃ SỬA sau red-team.</b> Thế cũ cho bé ăn Tượng đối phương <b>ngay nước 1</b> (Xe f2 × Tượng f7, cùng cột f). Thế mới: không bên nào ăn được ở nước 1, hai Tượng <b>e2/d7 cùng ô trắng</b> nên vẫn gặp được nhau.",
