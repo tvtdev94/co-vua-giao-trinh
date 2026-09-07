@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Buổi 5 — Tượng đi chéo + mẹo tự kiểm</title>
+<meta name="description" content="Buổi 5/30 — giáo trình cờ vua cho bé 5 tuổi.">
+<style>
+:root { --ink:#1a1a1a; --mut:#666; --line:#e2e2e2; --accent:#b8232c; --bg:#fdfdfc; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--ink);
+  font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  -webkit-text-size-adjust:100%; }
+.wrap { max-width:44rem; margin:0 auto; padding:1.5rem 1.1rem 4rem; }
+h1 { font:600 1.6rem/1.25 Georgia,serif; margin:.2rem 0 .6rem; }
+h2 { font:600 1.15rem/1.3 Georgia,serif; margin:2rem 0 .6rem;
+  padding-top:1rem; border-top:1px solid var(--line); }
+h3,h4 { font-size:.82rem; letter-spacing:.09em; text-transform:uppercase;
+  color:var(--accent); margin:1.6rem 0 .5rem; font-weight:700; }
+p,li { margin:.5rem 0; }
+a { color:#0b5ea8; }
+code { background:#f1f1ef; padding:.1em .35em; border-radius:3px; font-size:.9em; }
+pre { background:#f7f7f5; border:1px solid var(--line); border-radius:6px;
+  padding:.85rem; overflow-x:auto; font:13px/1.5 ui-monospace,Consolas,monospace; }
+pre code { background:none; padding:0; font-size:inherit; }
+blockquote { margin:.8rem 0; padding:.6rem .9rem; border-left:3px solid var(--accent);
+  background:#fbf6f6; border-radius:0 5px 5px 0; }
+blockquote p:first-child { margin-top:0; } blockquote p:last-child { margin-bottom:0; }
+table { border-collapse:collapse; width:100%; margin:.9rem 0; font-size:.92rem;
+  display:block; overflow-x:auto; }
+th,td { border:1px solid var(--line); padding:.45rem .6rem; text-align:left;
+  vertical-align:top; }
+th { background:#f4f4f2; font-weight:600; }
+.meta { color:var(--mut); font-size:.88rem; margin:0 0 1.2rem; }
+.nav { display:flex; gap:.5rem; flex-wrap:wrap; margin:1.4rem 0; }
+.nav a, .nav span { flex:1; min-width:8rem; text-align:center; padding:.65rem .5rem;
+  border:1px solid var(--line); border-radius:7px; background:#fff;
+  text-decoration:none; font-size:.9rem; }
+.nav span { color:#bbb; }
+.grid { display:grid; gap:.55rem; margin:.8rem 0 0; }
+.card { display:flex; gap:.8rem; align-items:baseline; padding:.7rem .9rem;
+  border:1px solid var(--line); border-radius:8px; background:#fff;
+  text-decoration:none; color:inherit; }
+.card:hover { border-color:var(--accent); }
+.card b { color:var(--accent); font:600 .82rem/1 ui-monospace,monospace;
+  min-width:3.4rem; }
+.card span { flex:1; }
+.tag { font-size:.7rem; letter-spacing:.06em; text-transform:uppercase;
+  color:var(--mut); border:1px solid var(--line); border-radius:99px;
+  padding:.15rem .5rem; white-space:nowrap; }
+.tag.on { color:#137333; border-color:#b7dfc0; background:#f1f9f3; }
+.ph { margin:1.7rem 0 .5rem; font:600 .78rem/1 ui-monospace,monospace;
+  letter-spacing:.1em; text-transform:uppercase; color:var(--mut); }
+.lead { font-size:1.02rem; color:#333; }
+.note { background:#fffbe9; border:1px solid #f0e2b0; border-radius:7px;
+  padding:.8rem 1rem; font-size:.93rem; margin:1.2rem 0; }
+@media (max-width:34rem){ .wrap{padding:1.1rem .85rem 3rem;} h1{font-size:1.35rem;} }
+</style>
+</head>
+<body><div class="wrap">
+<h1>Buổi 5 — Tượng đi chéo + mẹo tự kiểm</h1>
+<p><em>Phase 1 — Bàn cờ + Xe + Tượng · buổi 5/30</em></p>
+<p><a href="buoi-04-o-bi-kiem-soat.html">← Buổi 4</a> · <a href="index.html">Mục lục</a> · <a href="buoi-06-xe-tuong-cung-ban.html">Buổi 6 →</a></p>
+<hr>
+<p><strong>"Xong" trông như thế nào:</strong> bé <strong>tự nói được</strong> màu ô của Tượng mình, không cần hỏi.</p>
+<p>Mẹo "Tượng đen thì đen mãi mãi" quan trọng hơn cả cách đi: nó cho bé <strong>công cụ tự kiểm không cần người lớn</strong> — và tự chủ là thứ kéo dài thời gian chú ý nhất ở tuổi này (mục 5.7).</p>
+<h4>① Ôn cho người lớn — 1 phút</h4>
+<ul><li>Đặt 1 Tượng, đi 5 nước chéo, tự soát: <strong>màu ô không bao giờ đổi</strong>.</li><li>Thuộc câu: <strong>"Tượng đi chéo. Và bạn ấy ở ô màu gì thì ở màu đó mãi mãi."</strong></li><li>Nhắc mình: buổi này <strong>xu chỉ được đặt trên ô cùng màu với Tượng</strong>. Đặt nhầm màu = bài không giải được = bé nản.</li></ul>
+<h4>② Bày bàn</h4>
+<p>Tượng trắng ở <code>c1</code> (<strong>ô đen</strong>). 5 xu — <strong>tất cả trên ô đen</strong>: <code>b2</code>, <code>a3</code>, <code>c5</code>, <code>e3</code>, <code>g5</code>.</p>
+<pre><code>   a  b  c  d  e  f  g  h
+8  .  .  .  .  .  .  .  .
+7  .  .  .  .  .  .  .  .
+6  .  .  .  .  .  .  .  .
+5  .  .  o  .  .  .  o  .
+4  .  .  .  .  .  .  .  .
+3  o  .  .  .  o  .  .  .
+2  .  o  .  .  .  .  .  .
+1  .  .  T  .  .  .  .  .</code></pre>
+<p>⚠ <strong>Kiểm tra trước khi gọi bé — HAI bước, đừng bỏ bước 2:</strong></p>
+<ol><li><strong>Màu ô:</strong> đặt ngón tay lên Tượng rồi lần lượt từng xu — tất cả phải <strong>cùng màu ô</strong>.</li><li><strong>Tới được thật không:</strong> trượt ngón tay theo đường chéo từ Tượng, kiểm <strong>từng xu có nằm trên một đường chéo đi tới được không</strong>. Cùng màu ô là <strong>chưa đủ</strong> — có ô cùng màu mà Tượng phải đi 2 nước mới tới. Bộ 5 xu ở trên đã được kiểm: có đường ăn hết trong <strong>5 nước</strong>, mỗi nước ăn 1 xu:</li></ol>
+<p>   <code>c1 → b2 → a3 → c5 → e3 → g5</code></p>
+<p><strong>Đừng tự đổi ô xu.</strong> Đổi sang ô cùng màu vẫn có thể làm bài không giải được trong 5 nước — đó chính là lỗi mà bước 2 sinh ra để bắt.</p>
+<h4>③ Lời thoại gợi ý</h4>
+<blockquote><p><strong>Ôn 1 phút:</strong><br>"Hôm qua hai bạn Xe đấu nhau, ai thắng ấy nhỉ?" <em>(chuyện trò, không kiểm tra)</em></p></blockquote>
+<blockquote><p><strong>Giới thiệu Tượng:</strong><br>"Đây là bạn <strong>Tượng</strong>. Bạn ấy không đi thẳng như Xe đâu — bạn ấy đi <strong>chéo</strong>."<br><em>(trượt ngón tay theo đường chéo — cho nhìn, đừng chỉ nói)</em><br>"Con đẩy thử một nước xem."</p></blockquote>
+<blockquote><p><strong>Gieo mẹo tự kiểm — quan trọng nhất buổi này:</strong><br>"Con nhìn xem bạn Tượng đang đứng ô màu gì?"<br><em>(bé: "đen")</em><br>"Giờ con đi thêm một nước nữa đi... Ô màu gì?"<br><em>(bé: "đen")</em><br>"Nữa đi... Màu gì?"<br><em>(bé: "đen!")</em><br>"Ơ, lạ nhỉ! <strong>Tượng đen thì đen mãi mãi.</strong> Bạn ấy không sang được ô trắng bao giờ luôn.<br><strong>Mà Tượng trắng thì cũng trắng mãi mãi</strong> — bạn Tượng nào cũng giữ nguyên màu ô của mình."<br><em>(nửa câu sau quan trọng: buổi 6 bé sẽ cầm một Tượng <strong>ô trắng</strong>. Nếu chỉ thuộc "đen thì đen mãi mãi", bé sẽ tưởng mẹo không áp dụng được.)</em></p></blockquote>
+<blockquote><p><strong>Vào trò "Tượng ăn xu":</strong><br>"Trên bàn có 5 cái xu, cái nào cũng đứng ô đen — vừa đúng màu của Tượng con. Con đi thu hết nhé."</p></blockquote>
+<blockquote><p><strong>Khi bé lưỡng lự:</strong><br>"Xu kia màu ô gì? Vậy Tượng mình tới được không?"</p></blockquote>
+<blockquote><p><strong>Nếu bé đi một nước không ăn được xu nào — KHÔNG sửa:</strong><br>"Ừ, đi qua đấy cũng được. Giờ tới xu nào được nhỉ?"<br><em>(thế này ăn hết được trong 5 nước, nhưng chỉ có <strong>đúng một</strong> đường. Bé đi 6–7 nước là bình thường và vẫn đạt — buổi 5 không đếm nước.)</em></p></blockquote>
+<blockquote><p><strong>Câu chốt:</strong><br>"Con tự biết Tượng của con ở ô đen mà bố/mẹ không phải nhắc."</p></blockquote>
+<h4>④ Sửa lỗi — giao thức 1-nước</h4>
+<table><thead><tr><th>Lỗi hay gặp</th><th>HÃY nói</th></tr></thead><tbody><tr><td>Bé đi Tượng thẳng (lẫn với Xe)</td><td><em>(chờ tay rời quân)</em> → <strong>"Tượng đi kiểu gì ấy nhỉ?"</strong></td></tr><tr><td>Bé đi chéo nhưng lệch, sang ô khác màu</td><td><strong>"Tượng mình màu ô gì? Còn ô con vừa đặt?"</strong> → bé tự thấy</td></tr><tr><td>Bé nhảy Tượng qua đầu quân chắn</td><td>"Trên đường chéo có ai đứng không nhỉ?" <em>(chưa có quân chắn ở thế này, chỉ dùng nếu bé tự thêm quân)</em></td></tr><tr><td>Bé hỏi "sao Tượng không đi thẳng được?"</td><td><strong>"Ừ, mỗi bạn có kiểu đi riêng."</strong> Không giải thích thêm</td></tr><tr><td>Bé lẫn Xe/Tượng 3 lần</td><td><strong>Ngừng sửa.</strong> Ghi bảng. Buổi 6 sẽ tự phân giải vì hai quân đứng cạnh nhau</td></tr></tbody></table>
+<h4>⑤ Điều kiện dừng sớm</h4>
+<table><thead><tr><th>Tình huống</th><th>Hành động</th></tr></thead><tbody><tr><td>Bé tự nói "đen mãi mãi" mà không cần hỏi</td><td><strong>Mục tiêu buổi đã đạt.</strong> Chơi nốt lượt đang chơi rồi dừng</td></tr><tr><td>Bé lẫn Tượng với Xe liên tục ở lượt 1</td><td>Đơn giản hoá ngay: <strong>1 Tượng + 2 xu</strong>, cả 2 xu nằm <strong>đúng trên đường chéo</strong> hiện tại của Tượng</td></tr><tr><td>Bé nản vì "không tới được" xu</td><td>Kiểm lại ngay — có xu nào đặt nhầm ô khác màu không? Nếu có, <strong>đó là lỗi người lớn</strong>: "À, bố/mẹ đặt nhầm rồi, xin lỗi con" → sửa</td></tr><tr><td>Bé xin đổi sang chơi Xe</td><td>Cho chơi Xe 1 lượt rồi kết buổi. <strong>Trò bé tự chọn</strong> kéo dài chú ý tốt nhất — nhưng buổi này coi như chưa hoàn thành, lặp lại nội dung Tượng ở buổi sau</td></tr><tr><td>2 tín hiệu</td><td>Dừng ngay. Kết: đặt 1 xu cách Tượng đúng 1 nước chéo → bé ăn → khen</td></tr></tbody></table>
+<hr>
+<h2>Ghi sau buổi — 3 con số (15 giây, không bỏ)</h2>
+<table><thead><tr><th>Số phút thực</th><th>Lý do dừng</th><th>Bé đòi chơi thêm?</th></tr></thead><tbody><tr><td>___</td><td>hết nội dung / 1 tín hiệu / 2 tín hiệu / hết 15 phút</td><td>C / K</td></tr></tbody></table>
+<p><a href="buoi-04-o-bi-kiem-soat.html">← Buổi 4</a> · <a href="index.html">Mục lục</a> · <a href="buoi-06-xe-tuong-cung-ban.html">Buổi 6 →</a></p>
+</div></body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Giáo trình 30 buổi cờ vua cho bé 5 tuổi</title>
+<meta name="description" content="Giáo trình cờ vua 30 buổi cho bé 5 tuổi.">
+<style>
+:root { --ink:#1a1a1a; --mut:#666; --line:#e2e2e2; --accent:#b8232c; --bg:#fdfdfc; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--ink);
+  font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  -webkit-text-size-adjust:100%; }
+.wrap { max-width:44rem; margin:0 auto; padding:1.5rem 1.1rem 4rem; }
+h1 { font:600 1.6rem/1.25 Georgia,serif; margin:.2rem 0 .6rem; }
+h2 { font:600 1.15rem/1.3 Georgia,serif; margin:2rem 0 .6rem;
+  padding-top:1rem; border-top:1px solid var(--line); }
+h3,h4 { font-size:.82rem; letter-spacing:.09em; text-transform:uppercase;
+  color:var(--accent); margin:1.6rem 0 .5rem; font-weight:700; }
+p,li { margin:.5rem 0; }
+a { color:#0b5ea8; }
+code { background:#f1f1ef; padding:.1em .35em; border-radius:3px; font-size:.9em; }
+pre { background:#f7f7f5; border:1px solid var(--line); border-radius:6px;
+  padding:.85rem; overflow-x:auto; font:13px/1.5 ui-monospace,Consolas,monospace; }
+pre code { background:none; padding:0; font-size:inherit; }
+blockquote { margin:.8rem 0; padding:.6rem .9rem; border-left:3px solid var(--accent);
+  background:#fbf6f6; border-radius:0 5px 5px 0; }
+blockquote p:first-child { margin-top:0; } blockquote p:last-child { margin-bottom:0; }
+table { border-collapse:collapse; width:100%; margin:.9rem 0; font-size:.92rem;
+  display:block; overflow-x:auto; }
+th,td { border:1px solid var(--line); padding:.45rem .6rem; text-align:left;
+  vertical-align:top; }
+th { background:#f4f4f2; font-weight:600; }
+.meta { color:var(--mut); font-size:.88rem; margin:0 0 1.2rem; }
+.nav { display:flex; gap:.5rem; flex-wrap:wrap; margin:1.4rem 0; }
+.nav a, .nav span { flex:1; min-width:8rem; text-align:center; padding:.65rem .5rem;
+  border:1px solid var(--line); border-radius:7px; background:#fff;
+  text-decoration:none; font-size:.9rem; }
+.nav span { color:#bbb; }
+.grid { display:grid; gap:.55rem; margin:.8rem 0 0; }
+.card { display:flex; gap:.8rem; align-items:baseline; padding:.7rem .9rem;
+  border:1px solid var(--line); border-radius:8px; background:#fff;
+  text-decoration:none; color:inherit; }
+.card:hover { border-color:var(--accent); }
+.card b { color:var(--accent); font:600 .82rem/1 ui-monospace,monospace;
+  min-width:3.4rem; }
+.card span { flex:1; }
+.tag { font-size:.7rem; letter-spacing:.06em; text-transform:uppercase;
+  color:var(--mut); border:1px solid var(--line); border-radius:99px;
+  padding:.15rem .5rem; white-space:nowrap; }
+.tag.on { color:#137333; border-color:#b7dfc0; background:#f1f9f3; }
+.ph { margin:1.7rem 0 .5rem; font:600 .78rem/1 ui-monospace,monospace;
+  letter-spacing:.1em; text-transform:uppercase; color:var(--mut); }
+.lead { font-size:1.02rem; color:#333; }
+.note { background:#fffbe9; border:1px solid #f0e2b0; border-radius:7px;
+  padding:.8rem 1rem; font-size:.93rem; margin:1.2rem 0; }
+@media (max-width:34rem){ .wrap{padding:1.1rem .85rem 3rem;} h1{font-size:1.35rem;} }
+</style>
+</head>
+<body><div class="wrap">
+<div class="nav"><a href="index.html">← Về mục lục 30 buổi</a></div><h1>Giáo trình 30 buổi cờ vua cho bé 5 tuổi</h1>
+<blockquote><p><strong>Artifact chính:</strong> <a href="plan.html"><code>plan.html</code></a> — mở bằng trình duyệt. Có sơ đồ bàn cờ vẽ sẵn cho cả 6 buổi, mockup thẻ A5, sơ đồ luồng 6 phase, và modal đọc toàn văn từng phase.<br>File <code>plan.md</code> này là bản chỉ mục ngắn. <code>plan.html</code> nhúng sẵn nội dung 6 file <code>phase-*.md</code> nên đọc offline được, nhưng <strong>các file <code>.md</code> vẫn là bản gốc để sửa</strong> — sửa <code>.md</code> rồi dựng lại HTML, đừng sửa ngược lại.</p></blockquote>
+<h2>Overview</h2>
+<p>Biến bản tư vấn đã chốt (<code>plans/reports/advise-260907-0854-co-vua-30-ngay.md</code>) thành <strong>kịch bản chạy được từng buổi</strong> cho một phụ huynh không nhớ luật cờ, dạy một bé 5 tuổi từ số 0.</p>
+<p>Plan này <strong>không thiết kế lại gì</strong>. Thứ tự phase, hai cửa kiểm tra (buổi 16, buổi 21), cơ chế dừng (mục 5.3), giao thức sửa lỗi 1-nước (mục 5.4) và trần màn hình (mục 5.5) được giữ nguyên nguyên văn. Đóng góp của plan là <strong>lớp thi hành</strong>: lời thoại, sơ đồ bày bàn, câu sửa lỗi mẫu, điều kiện dừng sớm cho từng buổi.</p>
+<p>Theo <strong>mục 2.17</strong> của bản tư vấn: chỉ Phase 1 (buổi 1–6) được viết chi tiết. Phase 2–6 là placeholder, viết sau khi đã chạy xong phase trước và <strong>đo được số chú ý thật của bé</strong>.</p>
+<h2>Goals</h2>
+<table><thead><tr><th>#</th><th>Goal</th><th>Priority</th></tr></thead><tbody><tr><td>1</td><td>Bé đi hết 1 ván 32 quân đúng luật ở buổi 30, ≤3 lần nhắc luật</td><td>P1</td></tr><tr><td>2</td><td>Bé vẫn còn muốn chơi — ≥4 lần bé tự đòi chơi trong 7 ngày cuối</td><td>P1</td></tr><tr><td>3</td><td>Thời gian bé tự nguyện ngồi tăng ≥50% (trung vị buổi 26–30 ≥12 phút)</td><td>P2</td></tr><tr><td>4</td><td>Phụ huynh không bỏ dở — 30 buổi trong ≤45 ngày, không chuỗi ≥3 ngày trống</td><td>P1</td></tr></tbody></table>
+<p>Non-goals (giữ nguyên từ bản tư vấn): ký hiệu bàn cờ, nguyên tắc khai cuộc, mẫu chiến thuật, en passant, Elo.</p>
+<h2>Cổng chuẩn bị — hoàn tất TRƯỚC buổi 1</h2>
+<p>Không phải một phase. Là điều kiện vào Phase 1. Chi tiết ở đầu <a href="phase-01-ban-co-xe-tuong.html"><code>phase-01</code></a>.</p>
+<ul><li>[ ] <strong>Có bộ cờ</strong> (bất kỳ loại nào — không đặt điều kiện kích thước). Ưu tiên bộ trơn, không hoa văn, để bé nhận ra quân bằng hình dáng</li><li>[ ] 10–15 "xu" (đồng xu nhựa/nho khô) + 1 túi vải kín</li><li>[ ] Bảng 30 ô trên A4 dán tủ lạnh + bút màu cho bé tô</li><li>[ ] Người lớn học lại Tối A + Tối B (2 × 20 phút, <strong>không có bé</strong>) — mục 5.1 Nhịp 1</li><li>[ ] <strong>Thẻ A5 "trọng tài" viết tay</strong> — để cạnh bàn cờ vĩnh viễn</li><li>[ ] Bàn cờ + hộp quân để <strong>ngay cạnh bàn học</strong> (không cất lên cao), bày xong ≤60 giây — xem R1</li><li>[ ] Câu neo thói quen viết lên bảng theo dõi ("sau ăn tối, trước tắm")</li><li>[ ] Phương án bù cho <strong>không có HLV dự bị</strong>: "ngày duy trì" 3 phút — xem R2</li><li>[ ] Phương án bù cho <strong>không có bạn cùng tuổi</strong>: người lớn thứ hai chơi 1 ván để bé xem — xem R3</li></ul>
+<h2>Phases</h2>
+<table><thead><tr><th>#</th><th>Phase</th><th>Buổi</th><th>Trạng thái</th><th>Chi tiết</th></tr></thead><tbody><tr><td>1</td><td><a href="phase-01-ban-co-xe-tuong.html">Bàn cờ + Xe + Tượng</a></td><td>1–6</td><td>Pending</td><td><strong>Đầy đủ</strong></td></tr><tr><td>2</td><td><a href="phase-02-hau-vua-chieu.html">Hậu, Vua, Chiếu</a></td><td>7–11</td><td>Pending</td><td>Placeholder</td></tr><tr><td>3</td><td><a href="phase-03-ma-cua-1.html">Mã → CỬA 1</a></td><td>12–16</td><td>Pending</td><td>Placeholder</td></tr><tr><td>4</td><td><a href="phase-04-tot-cua-2.html">Tốt → CỬA 2</a></td><td>17–21</td><td>Pending</td><td>Placeholder</td></tr><tr><td>5</td><td><a href="phase-05-chieu-het-hoa-nhap-thanh.html">Chiếu hết, hòa, nhập thành</a></td><td>22–26</td><td>Pending</td><td>Placeholder</td></tr><tr><td>6</td><td><a href="phase-06-van-day-du-van-moc.html">Ván đầy đủ → VÁN MỐC</a></td><td>27–30</td><td>Pending</td><td>Placeholder</td></tr></tbody></table>
+<p><strong>Dependencies:</strong> tuyến tính 1→2→3→4→5→6. Phase 4 chỉ mở khi <strong>CỬA 1 (buổi 16) ≥11/12</strong>. Phase 5 chỉ mở khi <strong>CỬA 2 (buổi 21) ≥11/12</strong>. Trượt cửa → nhánh 5.2b, không "cho qua".</p>
+<p><strong>Quy tắc viết phase kế tiếp (mục 2.17):</strong> chỉ viết chi tiết Phase N+1 <strong>sau khi</strong> Phase N chạy xong và đã có số phút thực tế của ≥4 buổi.</p>
+<h2>Ba cơ chế xuyên suốt mọi buổi</h2>
+<p>Nguyên văn từ bản tư vấn, không sửa. Chi tiết đầy đủ + lời thoại ở <code>phase-01</code>.</p>
+<ol><li><strong>Quy tắc 3 tín hiệu (5.3)</strong> — S1 rời mắt &gt;5s ×2 liên tiếp · S2 đi bừa 2 nước liền · S3 nói không muốn / chơi quân như đồ chơi. 1 tín hiệu → trò tay 60–90s, quay lại đúng 1 lần, tối đa +3 phút. 2 tín hiệu → <strong>dừng ngay</strong>. <strong>3 tín hiệu / bé phản kháng hoặc khóc → dừng ngay, bỏ luôn nội dung buổi đó, KHÔNG tính là buổi đã hoàn thành</strong>, lần sau lặp lại ở phiên bản dễ hơn. Hết 15 phút mà bé vẫn muốn → <strong>vẫn dừng</strong>.</li><li><strong>Giao thức sửa lỗi 1-nước (5.4)</strong> — không dùng chữ "sai"; chỉ sửa nước VỪA đi; im lặng khi bé đang nghĩ; sai cùng 1 luật 3 lần → không sửa lần 4, ghi lại; người lớn cố tình đi sai 1 nước mỗi 2–3 buổi để bé bắt lỗi.</li><li><strong>Trần màn hình (5.5)</strong> — <strong>0 phút màn hình cho bé trong toàn Phase 1</strong>. Mở khóa từ sau buổi 17: ≤10 phút/lần, ≤2 lần/tuần, tổng ≤60 phút/30 buổi. Cấm Puzzle Duel, cấm chơi online. Cap không áp cho người lớn (lichess.org/learn).</li></ol>
+<h2>Success Criteria</h2>
+<p>Nghiệm thu ở buổi 30, đối chiếu mục 8 của bản tư vấn.</p>
+<ul><li>[ ] Ván mốc ra kết quả, <strong>≤3 lần nhắc luật</strong>, ≥90% nước hợp luật (đếm ≥20 nước)</li><li>[ ] Bé tự bày 32 quân đúng hướng ≤3 phút, không nhắc, 2 lần liên tiếp</li><li>[ ] Mate 2 Xe <strong>hoặc</strong> mate Hậu+Vua với ≤2 gợi ý; nhập thành 5/5 động tác đúng</li><li>[ ] CỬA 1 và CỬA 2 đều ≥11/12</li><li>[ ] ≥4 lần bé tự đòi chơi trong 7 ngày cuối; sau ván mốc bé đòi chơi tiếp = <strong>Có</strong></li><li>[ ] ≤20% buổi bị dừng sớm vì hết hứng (≤6/30)</li><li>[ ] <strong>Số đợt "nghỉ 3 ngày" phải kích hoạt: ≤1</strong> <em>(cảnh báo sớm cho leo thang 5.3 — 2 đợt là ngưỡng nghỉ 2 tuần)</em></li><li>[ ] Trung vị thời gian ngồi tự nguyện buổi 26–30 ≥12 phút (tăng ≥50% so với buổi 1–5)</li><li>[ ] 30 buổi trong ≤45 ngày; ≤8 "ngày duy trì" 3 phút; bảng ghi đủ 3 số ≥27/30 buổi</li><li>[ ] <strong>Không có chuỗi ≥3 ngày không có buổi nào</strong> (kể cả buổi tối thiểu 3 phút), ngoài đợt nghỉ chủ đích</li><li>[ ] Tổng app ≤60 phút, ≤8 lần dùng, 0 lần Puzzle Duel/online/tính điểm</li></ul>
+<p><strong>Nghiệm thu riêng cho Phase 1</strong> (điều kiện vào Phase 2): xem <code>phase-01</code> → Success Criteria.</p>
+<h2>Nguồn</h2>
+<ul><li>Bản tư vấn đã chốt (nguồn thiết kế duy nhất): <code>plans/reports/advise-260907-0854-co-vua-30-ngay.md</code></li><li>Nghiên cứu bổ trợ cho lớp thi hành: <code>plans/reports/R1-minigames-260907-0937-xe-tuong-minigames.md</code>, <code>plans/reports/R2-coach-language-260907-0937-ngon-ngu-hlv-5-tuoi.md</code></li></ul>
+<h2>Điều kiện thực tế (chốt 2026-09-07)</h2>
+<table><thead><tr><th>#</th><th>Câu hỏi</th><th>Trả lời</th><th>Hệ quả với plan</th></tr></thead><tbody><tr><td>1</td><td>Bộ cờ, ô bao nhiêu mm?</td><td><strong>Chưa mua.</strong> Không quan tâm kích thước</td><td>Buổi 1 bắt đầu khi có bộ cờ. Không đặt điều kiện về ô/đế — dùng bộ nào cũng chạy được giáo trình này</td></tr><tr><td>2</td><td>Chỗ bày cố định 6 tuần?</td><td>Có bàn học, <strong>bày ra khi học rồi cất</strong></td><td>⚠️ Khác khuyến nghị #1 của bản tư vấn — xem Rủi ro đã chấp nhận</td></tr><tr><td>3</td><td>Bạn 5 tuổi cùng chơi?</td><td><strong>Không có</strong></td><td>⚠️ Mất đòn tác động lớn nhất lên chỉ số "bé tự đòi chơi" — xem Rủi ro đã chấp nhận</td></tr><tr><td>4</td><td>HLV dự bị?</td><td><strong>Không cần, bố/mẹ tự kèm</strong></td><td>⚠️ Rủi ro phụ-huynh-bỏ-dở không được che — xem Rủi ro đã chấp nhận</td></tr><tr><td>5</td><td>Bé đọc được chữ/số chưa?</td><td><strong>Đọc được cả chữ lẫn số</strong></td><td>Mở thêm lựa chọn từ buổi 17: puzzle <strong>in trên giấy</strong> dùng được, không phụ thuộc app. Bé tự đọc được bảng theo dõi 30 ô</td></tr><tr><td>6</td><td>Ngân sách lớp 1 buổi/tuần?</td><td><strong>Không có.</strong> Dạy hằng ngày, bé chán thì dừng, hôm sau tiếp</td><td>Khớp đúng Quy tắc 3 tín hiệu (5.3). Không có phương án lớp dự phòng</td></tr><tr><td>7</td><td>Mốc thời gian bên ngoài trong 40–45 ngày?</td><td><strong>Không có mốc nào cần né</strong></td><td>Lịch chạy liên tục. Vẫn giữ ngân sách ~10 ngày nghỉ trong cửa sổ 45 ngày</td></tr></tbody></table>
+<p><strong>Không còn câu hỏi treo.</strong> Điều kiện duy nhất để mở buổi 1: <strong>có bộ cờ trong tay</strong>.</p>
+<p>⚠️ <strong>Lưu ý về câu 5 — bé đọc được chữ/số KHÔNG làm đổi non-goal.</strong> Ký hiệu bàn cờ (e4, Nf3) vẫn <strong>không dạy</strong> trong 30 buổi, và vẫn <strong>không nói toạ độ với bé</strong>. Bé đọc được chữ chỉ mở ra puzzle in giấy như một lựa chọn thay app — không phải lý do để dạy ký hiệu sớm.</p>
+<h2>Rủi ro đã chấp nhận</h2>
+<p>Ba lựa chọn của phụ huynh lệch khỏi khuyến nghị của bản tư vấn. <strong>Đây là quyết định đã chốt, không phải lỗi</strong> — ghi lại để biết cần bù ở đâu.</p>
+<p><strong>R1 — Bàn cờ không để cố định.</strong> Bản tư vấn xếp "bàn để nguyên, không cất vào hộp" là khuyến nghị hiệu-quả-trên-công-sức <strong>số 1</strong>, vì ma sát "lấy ra – bày quân" là nguyên nhân bỏ dở lớn hơn cả sự chán của bé. → <strong>Bù:</strong> để bàn cờ + hộp quân <strong>ngay cạnh bàn học</strong>, không cất vào tủ/kệ cao. Mục tiêu: từ lúc quyết định học tới lúc bày xong ≤60 giây. Bày sẵn thế của buổi kế tiếp trước khi cất là không làm được — thay bằng <strong>kẹp giấy ghi thế buổi sau vào thẻ A5</strong>. → <strong>Tín hiệu cần theo dõi:</strong> nếu ≥2 buổi bị bỏ vì "ngại bày", chuyển sang để cố định.</p>
+<p><strong>R2 — Không có HLV dự bị.</strong> Chế độ hỏng thật của chương trình này là <em>người lớn bỏ</em>, không phải bé bỏ. Một tuần bận/ốm là đủ để đứt mạch. → <strong>Bù:</strong> dùng "ngày duy trì" 3 phút (đã có trong plan, ≤8 ngày) cho ngày bận — 3 phút bày 2 quân chơi 1 trò còn hơn bỏ trắng. Ghi bảng theo dõi mỗi ngày kể cả ngày nghỉ. → <strong>Tín hiệu:</strong> đứt &gt;3 ngày liên tiếp mà không phải "nghỉ có chủ ý" theo 5.3 → mạch đã gãy, cần khởi động lại từ trò bé thích nhất.</p>
+<p><strong>R3 — Không có bạn cùng tuổi.</strong> Bản tư vấn xếp đây là đòn đơn lẻ mạnh nhất lên chỉ số "bé tự đòi chơi" (hạn chót buổi 20). → <strong>Bù (không tốn tiền):</strong> người lớn thứ hai trong nhà chơi <strong>một ván với bé làm khán giả</strong> (bé thấy cờ là việc người lớn cũng chơi, không phải bài tập); anh/chị/em họ dịp cuối tuần; bé "dạy lại" ông bà/gấu bông cách đi quân Xe — dạy lại là cách củng cố mạnh, không cần đối thủ thật. → <strong>Nếu tới buổi 20 chỉ số "bé tự đòi chơi" &lt;2 lần/tuần:</strong> đây là chỗ cần xem lại, không phải cố đẩy tiếp.</p>
+<h2>Validation Log</h2>
+<h3>Session 1 — 2026-09-07</h3>
+<p><strong>Trigger:</strong> hoàn tất red-team sơ đồ bàn cờ Phase 1; xác nhận quyết định trước khi chốt plan. <strong>Questions asked:</strong> 3</p>
+<h4>Verification Results</h4>
+<ul><li>Claims checked: 6 sơ đồ bàn cờ + 30/30 dòng bản đồ buổi + 21 success metric</li><li><strong>Verified:</strong> 3 sơ đồ đúng (buổi 1, 2, 4) · fidelity 30/30 · 0 metric bị bịa thêm hoặc làm yếu</li><li><strong>Failed:</strong> 3 BLOCKER (buổi 3, 5, 6) · 5 MAJOR · 6 MINOR — <strong>đã sửa toàn bộ</strong></li><li>Tier: Full (6 phase)</li><li>Phương pháp: dựng lại độc lập bằng script — màu ô, đường đi, quân chắn, thứ tự ăn, BFS số nước tối thiểu. Không tin nhãn tự ghi trong plan.</li><li>Báo cáo: <code>plans/reports/redteam-260907-1115-co-vua-phase1.md</code></li></ul>
+<h4>Questions &amp; Answers</h4>
+<ol><li><strong>[Tradeoffs]</strong> Buổi 5 sau khi sửa: thế Tượng chỉ còn ĐÚNG MỘT thứ tự ăn hết 5 xu trong 5 nước. Xử lý thế nào?</li><li>Options: Giữ nguyên, không đếm nước (Khuyến nghị) | Hạ mục tiêu: ăn 3 trong 5 xu | Đổi sang bộ dễ: 5 xu cùng một đường chéo</li><li><strong>Answer:</strong> Giữ nguyên, không đếm nước</li><li><strong>Rationale:</strong> Tiêu chí "xong" của buổi 5 là <em>bé tự nói được màu ô của Tượng</em> — không liên quan số nước. Giữ bộ trải rộng dạy được "chéo có 2 hướng"; bé đi 6–7 nước vẫn đạt. Không tồn tại bộ 5 xu vừa trải rộng vừa nhiều lời giải — đây là ràng buộc hình học của quân Tượng, không phải thiếu sót thiết kế.</li></ol>
+<ol><li><strong>[Assumptions]</strong> Nguồn ghi "3 buổi LIÊN TIẾP bị dừng sớm → nghỉ 3 ngày"; phase-01 ghi "≥3 buổi trong Phase 1" (chặt hơn). Giữ cái nào?</li><li>Options: Giữ bản chặt hơn cho Phase 1 (Khuyến nghị) | Đồng bộ đúng nguồn: 3 buổi liên tiếp</li><li><strong>Answer:</strong> Giữ bản chặt hơn cho Phase 1</li><li><strong>Rationale:</strong> 3/6 buổi đầu = 50%, đủ là tín hiệu thật kể cả rải rác. Phase 1 là lúc dễ nhận ra bé chưa sẵn sàng nhất. Từ Phase 2 dùng đúng nguyên văn "liên tiếp".</li></ol>
+<ol><li><strong>[Scope]</strong> Sau khi sửa xong Phase 1, làm gì tiếp?</li><li>Options: Dừng ở đây, commit (Khuyến nghị) | Commit + in sẵn tài liệu buổi 1 | Viết luôn Phase 2</li><li><strong>Answer:</strong> Dừng ở đây, commit</li><li><strong>Rationale:</strong> Đúng mục 2.17 — Phase 2 chỉ viết sau khi chạy thật 6 buổi và có số phút chú ý thật của bé.</li></ol>
+<h4>Confirmed Decisions</h4>
+<ul><li>Buổi 5 giữ bộ xu trải rộng <code>b2 · a3 · c5 · e3 · g5</code>, <strong>không đếm nước</strong> — ưu tiên dạy "chéo 2 hướng" hơn dư địa sai.</li><li>Ngưỡng nghỉ 3 ngày của Phase 1 <strong>chặt hơn nguồn có chủ đích</strong> (3 buổi bất kỳ, không cần liên tiếp); Phase 2–6 dùng nguyên văn 5.3.</li><li><strong>Không viết Phase 2</strong> cho tới khi Phase 1 chạy xong và thu đủ 5 loại dữ liệu ở mục "Dữ liệu bắt buộc thu được" của <code>phase-01</code>.</li></ul>
+<h4>Impact on Phases</h4>
+<ul><li><strong>Phase 1:</strong> đã áp dụng 3 BLOCKER + 5 MAJOR + 6 MINOR. Sơ đồ buổi 5 và buổi 6 thay mới hoàn toàn, verify lại bằng script.</li><li><strong>Phase 4:</strong> mốc "bạn 5 tuổi" đổi thành phương án bù của R3 + ngưỡng kiểm ở buổi 20.</li><li><strong>Phase 2–6:</strong> không đổi nội dung; ghi nhận ngưỡng "liên tiếp" dùng nguyên văn khi tới lượt viết chi tiết.</li></ul>
+<p>&lt;!-- slug: co-vua-30-buoi --&gt;</p><div class="nav"><a href="index.html">← Về mục lục 30 buổi</a></div>
+</div></body>
+</html>

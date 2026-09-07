@@ -1,0 +1,52 @@
+name: Deploy site to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Cac script tu kiem truoc khi ghi, nen buoc nay that bai la deploy dung.
+      - name: Dung lai file sinh tu dong
+        working-directory: plans/260907-0938-co-vua-30-buoi
+        run: |
+          python make-days.py
+          python make-print-pages.py
+          python make-site.py
+
+      # File sinh ra da commit san. Neu build ra khac tuc la co nguoi sua tay
+      # vao file sinh ra, hoac quen chay lai script sau khi sua .md.
+      - name: Kiem file sinh ra khop voi ban da commit
+        run: git diff --exit-code
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: plans/260907-0938-co-vua-30-buoi/site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

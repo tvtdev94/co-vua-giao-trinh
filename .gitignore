@@ -1,0 +1,3 @@
+# Python bytecode cache tu cac script sinh file
+__pycache__/
+*.pyc

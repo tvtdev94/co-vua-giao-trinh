@@ -1,0 +1,4 @@
+# Cac script sinh file luon ghi LF. Ep LF trong repo de buoc kiem
+# "file sinh ra khop ban da commit" tren CI (Linux) khong bao sai gia
+# chi vi Windows dung CRLF.
+* text=auto eol=lf

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Phase 1: Bàn cờ + hai quân "đường thẳng" (buổi 1–6)</title>
+<meta name="description" content="Giáo trình cờ vua 30 buổi cho bé 5 tuổi.">
+<style>
+:root { --ink:#1a1a1a; --mut:#666; --line:#e2e2e2; --accent:#b8232c; --bg:#fdfdfc; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--ink);
+  font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  -webkit-text-size-adjust:100%; }
+.wrap { max-width:44rem; margin:0 auto; padding:1.5rem 1.1rem 4rem; }
+h1 { font:600 1.6rem/1.25 Georgia,serif; margin:.2rem 0 .6rem; }
+h2 { font:600 1.15rem/1.3 Georgia,serif; margin:2rem 0 .6rem;
+  padding-top:1rem; border-top:1px solid var(--line); }
+h3,h4 { font-size:.82rem; letter-spacing:.09em; text-transform:uppercase;
+  color:var(--accent); margin:1.6rem 0 .5rem; font-weight:700; }
+p,li { margin:.5rem 0; }
+a { color:#0b5ea8; }
+code { background:#f1f1ef; padding:.1em .35em; border-radius:3px; font-size:.9em; }
+pre { background:#f7f7f5; border:1px solid var(--line); border-radius:6px;
+  padding:.85rem; overflow-x:auto; font:13px/1.5 ui-monospace,Consolas,monospace; }
+pre code { background:none; padding:0; font-size:inherit; }
+blockquote { margin:.8rem 0; padding:.6rem .9rem; border-left:3px solid var(--accent);
+  background:#fbf6f6; border-radius:0 5px 5px 0; }
+blockquote p:first-child { margin-top:0; } blockquote p:last-child { margin-bottom:0; }
+table { border-collapse:collapse; width:100%; margin:.9rem 0; font-size:.92rem;
+  display:block; overflow-x:auto; }
+th,td { border:1px solid var(--line); padding:.45rem .6rem; text-align:left;
+  vertical-align:top; }
+th { background:#f4f4f2; font-weight:600; }
+.meta { color:var(--mut); font-size:.88rem; margin:0 0 1.2rem; }
+.nav { display:flex; gap:.5rem; flex-wrap:wrap; margin:1.4rem 0; }
+.nav a, .nav span { flex:1; min-width:8rem; text-align:center; padding:.65rem .5rem;
+  border:1px solid var(--line); border-radius:7px; background:#fff;
+  text-decoration:none; font-size:.9rem; }
+.nav span { color:#bbb; }
+.grid { display:grid; gap:.55rem; margin:.8rem 0 0; }
+.card { display:flex; gap:.8rem; align-items:baseline; padding:.7rem .9rem;
+  border:1px solid var(--line); border-radius:8px; background:#fff;
+  text-decoration:none; color:inherit; }
+.card:hover { border-color:var(--accent); }
+.card b { color:var(--accent); font:600 .82rem/1 ui-monospace,monospace;
+  min-width:3.4rem; }
+.card span { flex:1; }
+.tag { font-size:.7rem; letter-spacing:.06em; text-transform:uppercase;
+  color:var(--mut); border:1px solid var(--line); border-radius:99px;
+  padding:.15rem .5rem; white-space:nowrap; }
+.tag.on { color:#137333; border-color:#b7dfc0; background:#f1f9f3; }
+.ph { margin:1.7rem 0 .5rem; font:600 .78rem/1 ui-monospace,monospace;
+  letter-spacing:.1em; text-transform:uppercase; color:var(--mut); }
+.lead { font-size:1.02rem; color:#333; }
+.note { background:#fffbe9; border:1px solid #f0e2b0; border-radius:7px;
+  padding:.8rem 1rem; font-size:.93rem; margin:1.2rem 0; }
+@media (max-width:34rem){ .wrap{padding:1.1rem .85rem 3rem;} h1{font-size:1.35rem;} }
+</style>
+</head>
+<body><div class="wrap">
+<div class="nav"><a href="index.html">← Về mục lục 30 buổi</a></div><h1>Phase 1: Bàn cờ + hai quân "đường thẳng" (buổi 1–6)</h1>
+<h2>Overview</h2>
+<p>Sáu buổi đầu tiên xây <strong>một thứ duy nhất</strong>: bé cầm quân lên và đặt xuống đúng ô, không cần hỏi. Không dạy ván cờ, không dạy mục tiêu, không nói chữ "học".</p>
+<p>Xe trước Tượng, Tượng trước tất cả — vì Xe có đúng một luật không ngoại lệ và bé <strong>tự kiểm được</strong> bằng cách nhìn dọc theo hàng, còn Tượng đi kèm mẹo tự kiểm "đen thì đen mãi mãi" (mục 5.7 bản tư vấn).</p>
+<hr>
+<h2>PHẦN 0 — Cổng chuẩn bị (làm TRƯỚC buổi 1, không có bé)</h2>
+<h3>0.1. Người lớn học lại — Tối A (20 phút)</h3>
+<p>Dùng bàn cờ thật + <a href="https://lichess.org/learn">lichess.org/learn</a> (miễn phí, không cần tài khoản). <strong>Trần màn hình không áp cho người lớn.</strong></p>
+<table><thead><tr><th>Nội dung</th><th>Kiểm tra bản thân</th></tr></thead><tbody><tr><td>Hướng bàn: <strong>ô trắng ở góc phải dưới</strong></td><td>Quay bàn 3 lần, mỗi lần đặt lại đúng</td></tr><tr><td><strong>Hậu đứng ô cùng màu quân mình</strong> ("queen on her color")</td><td>Bày hàng đầu 2 bên, tự soát</td></tr><tr><td>Cách đi <strong>và cách ăn</strong> của cả 6 quân</td><td>Đi mỗi quân 5 nước trên bàn trống</td></tr><tr><td>Chiếu là gì</td><td>Dựng 3 thế chiếu, tự nói được vì sao</td></tr><tr><td><strong>3 cách thoát chiếu</strong>: chạy / chắn / ăn quân đang chiếu</td><td>Nói được cả 3 mà không nhìn</td></tr></tbody></table>
+<h3>0.2. Người lớn học lại — Tối B (20 phút)</h3>
+<ul><li>Chiếu hết vs hòa</li><li><strong>Stalemate</strong>: vua không bị chiếu nhưng không còn nước hợp lệ = <strong>HÒA</strong>, không phải thắng</li><li>4 điều kiện nhập thành</li><li>Phong cấp</li><li><strong>en passant — chỉ đọc để biết là có. Sẽ hoãn, không dạy trong 30 buổi.</strong></li></ul>
+<h3>0.3. Thẻ A5 "trọng tài" — viết tay, để cạnh bàn cờ vĩnh viễn</h3>
+<p>Đây là "giáo trình tự chứa". Không đọc lại file dài mỗi buổi.</p>
+<pre><code>┌─────────── MẶT TRƯỚC ───────────┐   ┌─────────── MẶT SAU ────────────┐
+│ XE     ↑↓←→  thẳng, không chéo  │   │ THOÁT CHIẾU — 3 cách:          │
+│ TƯỢNG  ⤢⤡    chéo, giữ nguyên   │   │   1. Vua chạy                  │
+│              màu ô mãi mãi       │   │   2. Chắn bằng quân khác       │
+│ HẬU    Xe + Tượng gộp lại        │   │   3. Ăn quân đang chiếu        │
+│ VUA    1 ô, mọi hướng            │   │                                │
+│ MÃ     chữ L, NHẢY QUA đầu quân  │   │ NHẬP THÀNH — 4 điều kiện:      │
+│ TỐT    đi thẳng 1 ô              │   │   Vua + Xe đó chưa từng đi     │
+│        ĂN CHÉO (khác cách đi!)   │   │   Không có quân ở giữa         │
+│        nước đầu được đi 2 ô      │   │   Vua KHÔNG đang bị chiếu      │
+│        tới cuối bàn → lên Hậu    │   │   Vua không ĐI QUA và không    │
+│                                  │   │     ĐẾN ô bị kiểm soát         │
+│ Bày bàn: Ô TRẮNG GÓC PHẢI        │   │                                │
+│          HẬU ĐỨNG Ô CÙNG MÀU     │   │ HẾT vs HÒA: vua bí mà KHÔNG    │
+│                                  │   │   bị chiếu = HÒA, không thắng  │
+│ ✗ HOÃN en passant — không dạy    │   │                                │
+└──────────────────────────────────┘   └────────────────────────────────┘
+
+┌────────── DÁN THÊM MẶT SAU: QUY TẮC 3 TÍN HIỆU ──────────┐
+│ S1 bé rời mắt &gt;5 giây, 2 lần liền                        │
+│ S2 bé đi bừa, 2 nước liền                                │
+│ S3 bé nói "không muốn" / chơi quân như đồ chơi           │
+│ ─────────────────────────────────────────────────────    │
+│ 1 tín hiệu  → trò tay 60–90 giây, quay lại ĐÚNG 1 lần,   │
+│               rồi tối đa +3 phút là dừng                 │
+│ 2 tín hiệu  → DỪNG NGAY. Cho bé 1 nước thắng dễ + 1 câu  │
+│               khen cụ thể. Không giảng thêm.             │
+│ Hết 15 phút mà bé vẫn muốn → VẪN DỪNG.                   │
+│ ─────────────────────────────────────────────────────    │
+│ DỪNG LÚC BÉ CÒN MUỐN CHƠI,                               │
+│ KHÔNG DỪNG LÚC BÉ ĐÃ HẾT MUỐN.                           │
+└──────────────────────────────────────────────────────────┘</code></pre>
+<h3>0.4. Cách đọc sơ đồ bày bàn trong tài liệu này</h3>
+<p><strong>Chỉ dành cho người lớn. Không bao giờ nói toạ độ với bé</strong> (ký hiệu là non-goal — mục 3).</p>
+<p>Ngồi ở phía quân trắng, nhìn xuống bàn:</p>
+<ul><li><strong>Cột</strong> tính từ trái sang phải: <code>a b c d e f g h</code></li><li><strong>Hàng</strong> tính từ phía bạn đi lên: <code>1 2 3 4 5 6 7 8</code></li><li>Vậy <code>d4</code> = cột thứ 4 từ trái, hàng thứ 4 từ phía bạn.</li></ul>
+<p>Trong sơ đồ: <code>□</code> = ô trắng · <code>■</code> = ô đen · <code>X</code> = Xe · <code>T</code> = Tượng · <code>o</code> = xu · <code>p</code> = Tốt (chỉ làm bia).</p>
+<h3>0.5. Checklist vật lý</h3>
+<ul><li>[ ] Bàn cờ + hộp quân để <strong>ngay cạnh bàn học</strong>, không cất vào tủ/kệ cao — mục tiêu <strong>bày xong ≤60 giây</strong> <em>(xem R1 trong <code>plan.md</code>: phụ huynh đã chốt bày-rồi-cất, không để cố định)</em></li><li>[ ] Thẻ A5 để cạnh bàn cờ</li><li>[ ] <strong>Giấy ghi thế buổi sau kẹp vào thẻ A5</strong> — thay cho việc bày sẵn thế từ tối trước</li><li>[ ] Hộp xu (10–15 đồng xu nhựa / nho khô) + túi vải kín</li><li>[ ] Bảng 30 ô dán tủ lạnh + bút màu <strong>của bé</strong></li><li>[ ] Đồng hồ bấm giây — <strong>úp màn hình xuống</strong>, bé không nhìn thấy</li><li>[ ] Câu neo thói quen viết lên bảng: <code>_______________________</code></li><li>[ ] <del>HLV dự bị</del> — <strong>không có, đã chốt</strong> (R2). Bù bằng <strong>"ngày duy trì" 3 phút</strong> vào ngày bận, ≤8 ngày trong cả chương trình</li></ul>
+<h3>0.6. Sáu luật vận hành — đọc một lần, nhớ mãi</h3>
+<ol><li><strong>Không thông báo mục tiêu cho bé.</strong> Không nói "30 ngày nữa con biết chơi cờ".</li><li><strong>Không gọi là "học".</strong> Gọi là chơi. Không có "tiết", không có "bài".</li><li><strong>Cho đi lại (takeback) không giới hạn</strong> suốt Phase 1 và tới hết buổi 29.</li><li><strong>Bé thắng ~60–70%</strong>, không phải 100%. Không cho không quân 2 nước liền.</li><li><strong>Sửa tối đa 1 nước</strong>, bằng câu hỏi. Không bao giờ nói "sai rồi".</li><li><strong>Màn hình cho bé trong Phase 1: 0 phút.</strong></li></ol>
+<hr>
+<h2>PHẦN 1 — Khung chung của mọi buổi</h2>
+<p>Trần cứng <strong>15 phút</strong>. Thời lượng trung vị nên <strong>~8–11 phút</strong>. Buổi nào cũng chạm 15 phút = đang tiêu trước hứng thú của ngày mai.</p>
+<pre><code>[1 phút]  Ôn nhanh buổi trước — 1 câu hỏi, không giảng
+[≤60 giây] Bày thế theo giấy kẹp ở thẻ A5 — bày TRƯỚC khi gọi bé, không bày trước mặt bé
+[6-9 phút] 2–3 LƯỢT của cùng một trò   ← lặp trong buổi mới tạo phản xạ
+[15 giây] 1 câu chốt tích cực, cụ thể
+[15 giây] Bé tô ô trên bảng + người lớn ghi 3 con số</code></pre>
+<p><strong>3 con số ghi sau mỗi buổi</strong> (15 giây, không bỏ):</p>
+<table><thead><tr><th>Số phút thực</th><th>Lý do dừng</th><th>Bé đòi chơi thêm?</th></tr></thead><tbody><tr><td>___</td><td>hết nội dung / 1 tín hiệu / 2 tín hiệu / hết 15 phút</td><td>C / K</td></tr></tbody></table>
+<p><strong>Bấm giờ:</strong> bắt đầu khi bé ngồi xuống, dừng khi bé đứng lên hoặc khi bạn kết thúc. Đây là dữ liệu cho Success Metric mục tiêu 3.</p>
+<hr>
+<h2>PHẦN 2 — Sáu buổi</h2>
+<p>Mỗi buổi có 5 phần theo đúng yêu cầu: <strong>ôn cho người lớn → bày bàn → lời thoại → sửa lỗi 1-nước → điều kiện dừng sớm</strong>.</p>
+<hr>
+<h3>BUỔI 1 — Bàn cờ, hướng bàn, màu ô</h3>
+<p><strong>"Xong" trông như thế nào:</strong> bé tự quay bàn đúng hướng, <strong>2 lần liên tiếp</strong>.</p>
+<h4>① Ôn cho người lớn — 2 phút, trước khi gọi bé</h4>
+<ul><li>Đặt bàn đúng hướng 2 lần, tự soát: <strong>ô trắng ở góc phải dưới</strong>.</li><li>Thuộc một câu duy nhất sẽ nói với bé: <strong>"Ô trắng ở tay phải mình."</strong></li><li>Nhắc mình: buổi này <strong>không có quân cờ nào trên bàn</strong>. Không giới thiệu quân. Không nói tên quân dù bé hỏi — trả lời "mai mình làm quen bạn ấy".</li></ul>
+<h4>② Bày bàn</h4>
+<p>Bàn cờ <strong>trống hoàn toàn</strong>. Đặt lệch hướng có chủ đích (ô đen ở góc phải) để bé có việc sửa.</p>
+<pre><code>   a  b  c  d  e  f  g  h
+8  □  ■  □  ■  □  ■  □  ■
+7  ■  □  ■  □  ■  □  ■  □
+6  □  ■  □  ■  □  ■  □  ■
+5  ■  □  ■  □  ■  □  ■  □
+4  □  ■  □  ■  □  ■  □  ■
+3  ■  □  ■  □  ■  □  ■  □
+2  □  ■  □  ■  □  ■  □  ■
+1  ■  □  ■  □  ■  □  ■  □
+                        ↑
+              ô trắng phải ở đây</code></pre>
+<p>Để sẵn <strong>8 xu</strong> trong túi vải kín.</p>
+<h4>③ Lời thoại gợi ý</h4>
+<blockquote><p><strong>Mở đầu (đừng dài hơn thế này):</strong><br>"Con nhìn cái bàn này xem. Có gì lạ không?"<br><em>(để bé nói bất cứ điều gì — đen trắng, ô vuông, nhiều ô. Không sửa.)</em></p></blockquote>
+<blockquote><p><strong>Vào trò 1 — quay bàn:</strong><br>"Bàn này có một quy tắc buồn cười: <strong>ô trắng phải ở tay phải mình</strong>. Con thử xem giờ ô góc phải là màu gì?"<br><em>(bé nói "đen")</em><br>"Vậy mình sửa kiểu gì nhỉ?"<br><em>(để bé tự quay. Nếu bé quay sai chiều, không nói gì — để bé thử tiếp.)</em><br>"Đúng rồi! Giờ con quay lung tung đi, rồi tự sửa lại cho bố/mẹ xem."</p></blockquote>
+<p>Lặp <strong>2–3 lượt</strong>. Lượt cuối để bé quay bàn cho <em>người lớn</em> kiểm tra — đảo vai.</p>
+<blockquote><p><strong>Vào trò 2 — bốc xu, nói màu ô:</strong><br>"Bố/mẹ có cái túi này. Con thò tay lấy 1 xu, đặt đại lên bàn, rồi nói cho bố/mẹ biết nó đang đứng trên ô màu gì."<br><em>(8 xu, mỗi xu 1 lượt. Nhanh, không nghĩ lâu.)</em><br>"Xu này đứng ô đen. Còn xu kia?"</p></blockquote>
+<blockquote><p><strong>Câu chốt:</strong><br>"Con nhớ ô trắng ở tay nào rồi đấy nhé. Mai mình cho một bạn lên bàn chơi."</p></blockquote>
+<h4>④ Sửa lỗi — giao thức 1-nước</h4>
+<table><thead><tr><th>Bé làm gì</th><th>ĐỪNG nói</th><th>HÃY nói</th></tr></thead><tbody><tr><td>Quay bàn sai chiều</td><td>"Sai rồi, quay bên kia"</td><td><em>(im lặng 5 giây)</em> → "Ô góc tay phải con giờ màu gì?"</td></tr><tr><td>Nói sai màu ô</td><td>"Không phải, ô đó đen"</td><td>"Con đặt ngón tay lên ô đó xem?" <em>(để bé nhìn lại)</em></td></tr><tr><td>Đếm ô lung tung</td><td>—</td><td>Không sửa. Buổi này không dạy đếm ô.</td></tr></tbody></table>
+<ul><li><strong>Chỉ sửa nước vừa làm.</strong> Không nói "nãy giờ con toàn quay sai".</li><li><strong>Im lặng khi bé đang nghĩ</strong> — chờ tay bé rời khỏi bàn/xu rồi mới nói.</li><li>Bé sai màu ô <strong>3 lần</strong> trong buổi → <strong>không sửa lần thứ 4</strong>. Ghi lại, xử lý ở buổi sau bằng một trò riêng.</li></ul>
+<h4>⑤ Điều kiện dừng sớm</h4>
+<table><thead><tr><th>Tình huống cụ thể buổi 1</th><th>Hành động</th></tr></thead><tbody><tr><td>Bé quay bàn xong 2 lần đúng và bắt đầu dựng xu thành tháp</td><td>Đó là <strong>S3</strong>. Trò đã xong việc của nó → <strong>chốt buổi ngay</strong>, không cố ép cho hết 8 xu</td></tr><tr><td>Bé nhìn ra cửa sổ &gt;5 giây, 2 lần</td><td><strong>S1</strong> → trò tay 60–90 giây: bốc quân trong túi kín, đoán bằng tay là quân gì (không cần đúng tên) → quay lại đúng 1 lần → tối đa +3 phút</td></tr><tr><td>Bé nói "chán quá"</td><td><strong>S3</strong> — nếu đây là tín hiệu thứ 2 → <strong>dừng ngay</strong>, kết bằng một lượt bé chắc chắn làm được ("con chỉ ô trắng nào cũng được cho bố/mẹ xem") + câu khen cụ thể</td></tr><tr><td>Bé quay bàn đúng 2 lần liên tiếp, mới 4 phút, bé vẫn hào hứng</td><td><strong>Vẫn được chơi tiếp trò xu</strong>, nhưng <strong>dừng trước phút thứ 11</strong>. Đừng dùng hết trần</td></tr></tbody></table>
+<p><strong>Câu khen mẫu (cụ thể, không chung chung):</strong></p>
+<ul><li>✅ "Con quay bàn một phát trúng luôn."</li><li>✅ "Con nhớ ô trắng ở tay phải, bố/mẹ không phải nhắc."</li><li>❌ "Con giỏi quá" <em>(chung chung, không cho bé biết cái gì đúng)</em></li></ul>
+<hr>
+<h3>BUỔI 2 — Xe đi ngang và dọc</h3>
+<p><strong>"Xong" trông như thế nào:</strong> <strong>10/10 nước</strong> đi đúng theo đường thẳng — <strong>cộng dồn qua 2–3 lượt</strong> (mỗi lượt ~6 nước, một lượt không đủ mẫu).</p>
+<h4>① Ôn cho người lớn — 1 phút</h4>
+<ul><li>Đặt 1 Xe giữa bàn trống, tự đi 5 nước: 2 ngang, 2 dọc, 1 dài hết bàn.</li><li>Thuộc câu sẽ nói: <strong>"Xe đi thẳng băng — ngang hoặc dọc, đi bao xa cũng được, nhưng không đi chéo."</strong></li><li>Nhắc mình: <strong>chưa dạy ăn quân</strong>. Xu chỉ để nhặt lên, không nói chữ "ăn" nếu tránh được.</li></ul>
+<h4>② Bày bàn</h4>
+<p>1 Xe trắng ở <code>d4</code>. 5 xu ở <code>d7</code>, <code>a4</code>, <code>h4</code>, <code>d1</code>, <code>g4</code>. <strong>Cả 5 xu đều nằm cùng hàng hoặc cùng cột với Xe</strong> — bé không thể sai kiểu "đi chéo mới tới được".</p>
+<pre><code>   a  b  c  d  e  f  g  h
+8  .  .  .  .  .  .  .  .
+7  .  .  .  o  .  .  .  .
+6  .  .  .  .  .  .  .  .
+5  .  .  .  .  .  .  .  .
+4  o  .  .  X  .  .  o  o
+3  .  .  .  .  .  .  .  .
+2  .  .  .  .  .  .  .  .
+1  .  .  .  o  .  .  .  .</code></pre>
+<p><strong>Lượt 2 và 3:</strong> đổi vị trí xu, giữ nguyên luật "cùng hàng hoặc cùng cột với Xe". Ví dụ lượt 2: Xe <code>e2</code>, xu ở <code>e6</code>, <code>a2</code>, <code>h2</code>, <code>e8</code>, <code>c2</code>.</p>
+<h4>③ Lời thoại gợi ý</h4>
+<blockquote><p><strong>Ôn 1 phút:</strong><br>"Ô trắng ở tay nào ấy nhỉ?" <em>(bé chỉ → xong, đi tiếp ngay, không giảng)</em></p></blockquote>
+<blockquote><p><strong>Giới thiệu Xe — ngắn nhất có thể:</strong><br>"Đây là bạn <strong>Xe</strong>. Bạn ấy đi thẳng băng thôi: ngang, hoặc dọc. Xa bao nhiêu cũng được. <strong>Nhưng không biết đi chéo.</strong>"<br><em>(vừa nói vừa trượt ngón tay dọc theo hàng và cột — cho bé nhìn thấy đường đi, đừng chỉ nói)</em><br>"Con thử đẩy Xe đi một nước xem."</p></blockquote>
+<blockquote><p><strong>Vào trò "Xe ăn xu":</strong><br>"Trên bàn có 5 cái xu. Con lấy Xe đi thu hết xu về, xu nào Xe đứng lên thì con nhặt bỏ vào hộp. Xem hết bao nhiêu nước nhé — bố/mẹ đếm cho."<br><em>(đếm to từng nước: "một... hai..." — biến thành trò đếm, không phải trò chấm điểm)</em></p></blockquote>
+<blockquote><p><strong>Giữa chừng, nếu bé nhìn quanh:</strong><br>"Cái xu ở kia kìa, Xe mình có tới thẳng được không nhỉ?"</p></blockquote>
+<blockquote><p><strong>Kết mỗi lượt:</strong><br>"6 nước! Lượt sau mình chơi thế khác nhé."<br><em>(→ tạo lý do để chơi lượt 2, 3 mà không phải người lớn ép)</em><br>⚠ <strong>Đừng nói "lượt sau thử ít nước hơn" ở buổi này.</strong> Thế 5 xu này <strong>ít nhất phải 6 nước</strong> — mời bé làm ít hơn là mời bé làm việc bất khả thi, ở đúng buổi thứ hai. Câu "thử ít hơn" để dành cho <strong>buổi 3</strong>, nơi bé thường đi 8 nước còn tối ưu là 5.</p></blockquote>
+<blockquote><p><strong>Câu chốt:</strong><br>"Bạn Xe của con đi thẳng băng luôn, không đi chéo lần nào."</p></blockquote>
+<h4>④ Sửa lỗi — giao thức 1-nước</h4>
+<table><thead><tr><th>Lỗi hay gặp</th><th>HÃY nói</th><th>Ghi chú</th></tr></thead><tbody><tr><td>Bé đẩy Xe đi chéo</td><td><em>(chờ tay bé rời quân)</em> → <strong>"Xe đi kiểu gì ấy nhỉ?"</strong></td><td>Để bé tự đặt lại. Không cầm tay bé.</td></tr><tr><td>Bé nhấc Xe lên rồi đặt cách xa, nhảy qua ô</td><td>"Con thử trượt Xe trên mặt bàn cho bố/mẹ xem đường nó đi"</td><td>Trượt thay vì nhấc = tự lộ đường đi</td></tr><tr><td>Bé đi 1 nước ăn 2 xu</td><td>"Xe mình đứng được mấy chỗ một lúc?"</td><td></td></tr><tr><td>Bé đi đúng nhưng chậm, ngập ngừng</td><td><strong>Không nói gì.</strong> Đợi.</td><td>Im lặng khi bé đang nghĩ là luật cứng</td></tr><tr><td>Bé đi chéo lần thứ 3 trong buổi</td><td><strong>Không sửa nữa.</strong> Ghi vào bảng.</td><td>Buổi sau: cho Xe đứng trên hàng 1 và tất cả xu cùng hàng đó — chỉ 1 chiều duy nhất</td></tr></tbody></table>
+<p><strong>Người lớn cố tình đi sai — làm 2–3 lần trong Phase 1 (mục 5.4: "mỗi 2–3 buổi"). Gợi ý: buổi 2 hoặc 3, rồi buổi 4, rồi buổi 6:</strong></p>
+<blockquote><p>"Đến lượt bố/mẹ nhé." <em>(đẩy Xe đi chéo)</em> → chờ bé phản ứng. Bé bắt được → "Ối, con bắt được bố/mẹ rồi!"</p></blockquote>
+<h4>⑤ Điều kiện dừng sớm</h4>
+<table><thead><tr><th>Tình huống</th><th>Hành động</th></tr></thead><tbody><tr><td>Xong lượt 1, bé nói "nữa nữa"</td><td>Chơi lượt 2. Sau lượt 2 <strong>dừng nếu đã 9–10 phút</strong>, kể cả bé còn muốn</td></tr><tr><td>Bé đi bừa 2 nước liền (không dừng nghĩ)</td><td><strong>S2</strong> → trò tay 60–90 giây → quay lại đúng 1 lần</td></tr><tr><td>Bé bắt đầu xếp xu thành chồng thay vì ăn</td><td><strong>S3</strong> → dừng, chốt bằng 1 nước Xe dễ ("con ăn nốt cái xu gần nhất kia đi")</td></tr><tr><td>Hết 3 lượt mà chưa tới 8 phút, bé vẫn hào hứng</td><td>Cho <strong>lượt 4 là lượt cuối</strong>, nói trước: "lượt này là lượt chót nhé"</td></tr><tr><td>Bé sai &gt;3 nước trong lượt 1</td><td>Đơn giản hoá ngay: bỏ bớt còn <strong>3 xu</strong>, và đặt cả 3 <strong>cùng một cột</strong> với Xe</td></tr></tbody></table>
+<hr>
+<h3>BUỔI 3 — Xe ăn quân (thay chỗ)</h3>
+<p><strong>"Xong" trông như thế nào:</strong> bé ăn hết trong <strong>≤6 nước</strong>.</p>
+<h4>① Ôn cho người lớn — 1 phút</h4>
+<ul><li>Tự làm động tác ăn quân 3 lần: <strong>nhấc quân bị ăn ra khỏi bàn trước, rồi đặt Xe vào đúng ô đó.</strong></li><li>Thuộc câu: <strong>"Xe đi tới ô có quân của đối phương thì mình nhấc bạn kia ra, Xe đứng vào chỗ ấy."</strong></li><li>⚠ <strong>Cảnh báo:</strong> buổi này dùng Tốt <strong>chỉ làm bia</strong>. <strong>Không giải thích Tốt đi thế nào.</strong> Bé sẽ hỏi — trả lời: <em>"Mấy bạn này hôm nay đứng im thôi, mai mốt mình mới làm quen."</em> Tốt là quân khó nhất, được để dành tới buổi 17 có lý do (mục 5.7).</li></ul>
+<h4>② Bày bàn</h4>
+<p>Xe trắng <code>a1</code>. 5 Tốt đen ở <code>a5</code>, <code>d1</code>, <code>d5</code>, <code>h5</code>, <code>h1</code> — <strong>5 nước nếu đi tối ưu, 6 nước vẫn đạt</strong> tiêu chí buổi.</p>
+<pre><code>   a  b  c  d  e  f  g  h
+8  .  .  .  .  .  .  .  .
+7  .  .  .  .  .  .  .  .
+6  .  .  .  .  .  .  .  .
+5  p  .  .  p  .  .  .  p
+4  .  .  .  .  .  .  .  .
+3  .  .  .  .  .  .  .  .
+2  .  .  .  .  .  .  .  .
+1  X  .  .  p  .  .  .  p</code></pre>
+<p><strong>Đường tối ưu 5 nước:</strong> <code>a1→a5</code> · <code>a5→d5</code> · <code>d5→d1</code> · <code>d1→h1</code> · <code>h1→h5</code>. Nếu bé tìm ra, khen <strong>đúng cái đó</strong>.</p>
+<p>Thế này <strong>khoan dung</strong>: có 4 đường 5 nước khác nhau, không chỉ đường trên (đi ngược lại, hoặc vòng theo chiều kia). 5 là số nước ít nhất — không có cách 4 nước. Bé đi 6 nước vẫn <strong>đạt</strong> tiêu chí.</p>
+<h4>③ Lời thoại gợi ý</h4>
+<blockquote><p><strong>Ôn 1 phút:</strong><br>"Bạn Xe đi kiểu gì ấy nhỉ?" <em>(bé trả lời hoặc chỉ tay — đủ rồi, đi tiếp)</em></p></blockquote>
+<blockquote><p><strong>Giới thiệu ăn quân:</strong><br>"Hôm nay Xe của con gặp mấy bạn đang đứng trên bàn. Xe đi tới chỗ bạn ấy thì <strong>bạn ấy phải ra khỏi bàn</strong>, còn Xe đứng vào đúng chỗ đó."<br><em>(tránh chữ "chắn đường" — nó gieo "Tốt = vật cản", mà buổi 17 phải xây "Tốt = quân đi được")</em><br><em>(làm mẫu 1 lần thật chậm: nhấc Tốt ra → đặt Xe vào)</em><br>"Con làm thử nước đầu tiên xem."</p></blockquote>
+<blockquote><p><strong>Trong lúc chơi:</strong><br>"Còn mấy bạn nữa?" <em>(bé đếm — cho bé đếm, đừng đếm hộ)</em><br>"Xe mình đang đứng đây, đi thẳng thì tới bạn nào được?"</p></blockquote>
+<blockquote><p><strong>Nếu bé đi vòng vèo tốn nhiều nước — KHÔNG sửa:</strong><br>"8 nước! Lượt sau mình thử ít hơn xem có được không."<br><em>(đây là cách duy nhất được phép "dạy tối ưu" ở tuổi này: cho lặp lại, không giảng)</em></p></blockquote>
+<blockquote><p><strong>Câu chốt — điền số nước THẬT bé vừa đi, đừng đọc số in sẵn:</strong><br>"Con dọn sạch bàn trong <strong>___ nước</strong>. Xe của con làm việc nhanh ghê."<br><em>(khen sai số còn tệ hơn khen chung chung — bé 5 tuổi đếm được tới 6.)</em></p></blockquote>
+<h4>④ Sửa lỗi — giao thức 1-nước</h4>
+<table><thead><tr><th>Lỗi hay gặp</th><th>HÃY nói</th></tr></thead><tbody><tr><td>Bé nhảy Xe <strong>qua đầu</strong> một Tốt để ăn Tốt phía sau</td><td><em>(chờ tay rời quân)</em> → <strong>"Trên đường đi có ai đang đứng không nhỉ?"</strong></td></tr><tr><td>Bé để cả 2 quân trên cùng 1 ô</td><td>"Một ô đứng được mấy bạn?"</td></tr><tr><td>Bé nhấc Tốt ra nhưng quên đặt Xe vào</td><td>"Giờ Xe đứng ở đâu?"</td></tr><tr><td>Bé hỏi "bạn Tốt đi thế nào?"</td><td><strong>"Hôm nay bạn ấy đứng im thôi. Mai mốt mình làm quen."</strong> <em>(tuyệt đối không giải thích)</em></td></tr><tr><td>Bé đi chéo (lỗi tồn từ buổi 2)</td><td>"Xe đi kiểu gì ấy nhỉ?" — nếu tái diễn lần 3, <strong>ngừng sửa</strong>, ghi bảng</td></tr></tbody></table>
+<h4>⑤ Điều kiện dừng sớm</h4>
+<table><thead><tr><th>Tình huống</th><th>Hành động</th></tr></thead><tbody><tr><td>Lượt 1 ăn hết trong ≤6 nước</td><td>Mục tiêu buổi <strong>đã đạt</strong>. Chơi thêm tối đa 1 lượt rồi dừng — kể cả còn thời gian</td></tr><tr><td>Bé mất &gt;10 nước ở lượt 1 và bắt đầu thở dài</td><td><strong>S1/S2</strong> sắp tới. Bỏ bớt còn <strong>3 Tốt</strong> ngay ở lượt 2, đừng chờ tín hiệu thứ 2</td></tr><tr><td>Bé cầm Tốt bị ăn lên chơi (cho quân "nói chuyện")</td><td><strong>S3</strong>. 1 tín hiệu → trò tay 60–90 giây. Đây là <strong>trò tay hợp nhất buổi này</strong>: đoán quân trong túi kín</td></tr><tr><td>Bé đòi tự bày lại thế cờ để chơi lượt nữa</td><td>Cho làm — <strong>đây là hoạt động do trẻ tự chọn</strong>, kéo dài chú ý tốt nhất. Vẫn dừng trước phút 12</td></tr><tr><td>2 tín hiệu</td><td>Dừng ngay. Kết: đặt Xe cách 1 Tốt đúng 1 nước thẳng → "con ăn nốt bạn này rồi mình cất nhé" → bé ăn → khen cụ thể → hết buổi</td></tr></tbody></table>
+<hr>
+<h3>BUỔI 4 — Ô bị quân khác kiểm soát</h3>
+<p><strong>"Xong" trông như thế nào:</strong> <strong>2/3 ván</strong> bé không tự đi vào ô bị ăn.</p>
+<p>Đây là buổi <strong>khái niệm</strong> đầu tiên của cả chương trình. Khó hơn 3 buổi trước rõ rệt. Không kỳ vọng bé hiểu — kỳ vọng bé <strong>né được</strong>.</p>
+<h4>① Ôn cho người lớn — 2 phút</h4>
+<ul><li>Dựng thế Xe vs Xe, tự hỏi trước mỗi nước: <em>"ô mình định đến có nằm trên hàng/cột của Xe kia không?"</em></li><li>Thuộc câu: <strong>"Đừng đứng vào đường của bạn kia."</strong></li><li>⚠ <strong>Bẫy đã biết của trò này:</strong> nếu 2 Xe khởi đầu <strong>cùng hàng hoặc cùng cột</strong>, người đi trước ăn luôn — ván kết thúc ở nước 1, bé không học gì. <strong>Thế bày dưới đây đã tránh điều đó.</strong></li><li>Chỉ tiêu thắng: <strong>bé thắng 2/3 ván</strong>. Không nhường lộ liễu — người lớn thua bằng cách <em>đi vào đường của bé</em>, y hệt lỗi bé hay mắc.</li></ul>
+<h4>② Bày bàn</h4>
+<p>Xe trắng (bé) <code>b2</code>. Xe đen (người lớn) <code>g7</code>. <strong>Khác hàng, khác cột</strong> → không ai ăn được ngay.</p>
+<pre><code>   a  b  c  d  e  f  g  h
+8  .  .  .  .  .  .  .  .
+7  .  .  .  .  .  .  X  .   ← Xe người lớn
+6  .  .  .  .  .  .  .  .
+5  .  .  .  .  .  .  .  .
+4  .  .  .  .  .  .  .  .
+3  .  .  .  .  .  .  .  .
+2  .  X  .  .  .  .  .  .   ← Xe của bé
+1  .  .  .  .  .  .  .  .</code></pre>
+<p><strong>Bé đi trước ván 1 và ván 3; ván 2 người lớn đi trước.</strong> Đi trước là lợi thế thật trong trò này — cho bé đi trước cả 3 ván cộng với các luật "nhường" bên dưới sẽ đẩy tỉ lệ thắng của bé lên gần 100%, phá chỉ tiêu 60–70%.</p>
+<p>Ván 2 đổi thế sang <code>c3</code> / <code>f6</code> (cũng khác hàng khác cột ✓); ván 3 quay lại thế gốc.</p>
+<h4>③ Lời thoại gợi ý</h4>
+<blockquote><p><strong>Ôn 1 phút:</strong><br>"Xe ăn bạn khác kiểu gì ấy nhỉ?" <em>(bé làm mẫu 1 nước là đủ)</em></p></blockquote>
+<blockquote><p><strong>Giới thiệu:</strong><br>"Hôm nay hai bạn Xe đấu nhau. Ai ăn được Xe kia trước thì thắng. Con đi trước."</p></blockquote>
+<blockquote><p><strong>Trước nước đi đầu tiên của bé — gieo hạt, chỉ 1 lần:</strong><br>"À, có một mẹo: Xe kia cũng đi thẳng băng như Xe con. Nên <strong>đừng đứng vào đường của bạn ấy</strong>."<br><em>(vừa nói vừa trượt ngón tay dọc hàng 7 và cột g — cho bé thấy "đường")</em></p></blockquote>
+<blockquote><p><strong>Khi bé định đi vào ô bị ăn — CHỈ NÓI SAU KHI TAY BÉ RỜI QUÂN:</strong><br>"Xe kia đi thẳng từ chỗ nó, có tới được chỗ Xe con vừa đứng không nhỉ?"<br><em>(bé nhận ra → cho đi lại. Takeback không giới hạn.)</em></p></blockquote>
+<blockquote><p><strong>Khi người lớn thua (2/3 ván):</strong><br>"Ối, bố/mẹ đứng nhầm vào đường của con rồi!"<br><em>(thua bằng đúng lỗi bé hay mắc → bé thấy lỗi đó là bình thường, không phải "dốt")</em></p></blockquote>
+<blockquote><p><strong>Câu chốt:</strong><br>"Con nhìn thấy đường của Xe kia trước khi đi. Khó đấy, mà con làm được."</p></blockquote>
+<h4>④ Sửa lỗi — giao thức 1-nước</h4>
+<table><thead><tr><th>Lỗi hay gặp</th><th>HÃY nói</th></tr></thead><tbody><tr><td>Bé đặt Xe vào hàng/cột của Xe đối phương</td><td><strong>"Xe kia đi thẳng, có tới chỗ đó được không nhỉ?"</strong> → cho đi lại</td></tr><tr><td>Bé né quá mức, đi lùi vào góc, không tấn công</td><td><strong>Không sửa.</strong> Né là kỹ năng buổi này. Tấn công là buổi khác</td></tr><tr><td>Bé đi vào ô bị ăn lần thứ 3</td><td><strong>Ngừng sửa.</strong> Đổi cách: bỏ 4 xu lên các ô nguy hiểm cho bé <em>nhìn thấy</em> đường — công cụ, không phải lời giảng</td></tr><tr><td>Bé thua và buồn</td><td>"Ván này bố/mẹ may thôi. Ván nữa nhé?" → <strong>cho bé đi trước và người lớn thua ván tiếp theo</strong></td></tr><tr><td>Bé thắng và muốn chơi tiếp mãi</td><td>Cho tối đa 3 ván. Ván 4 chỉ khi chưa tới 10 phút</td></tr></tbody></table>
+<h4>⑤ Điều kiện dừng sớm</h4>
+<table><thead><tr><th>Tình huống</th><th>Hành động</th></tr></thead><tbody><tr><td>Bé thắng ván 1 nhanh, cười to, đòi chơi tiếp</td><td>Chơi ván 2. <strong>Đây là buổi dễ chạm trần 15 phút nhất</strong> — canh đồng hồ, dừng ở phút 11–12</td></tr><tr><td>Bé thua 2 ván liên tiếp, mặt xị</td><td><strong>Nguy cơ S3.</strong> Ván 3: người lớn <strong>chắc chắn thua</strong>, kết thúc buổi ngay sau đó bằng câu khen cụ thể</td></tr><tr><td>Bé đi bừa, không nhìn Xe đối phương, 2 nước liền</td><td><strong>S2</strong> → trò tay 60–90 giây → quay lại <strong>đúng 1 lần</strong> → tối đa +3 phút</td></tr><tr><td>Bé không hiểu "đường của Xe kia" sau cả 3 ván</td><td><strong>Không sao.</strong> Ghi vào bảng. Khái niệm này còn quay lại ở buổi 10–11 (chiếu). Không lặp thêm buổi ở đây</td></tr><tr><td>2 tín hiệu</td><td>Dừng ngay. Kết bằng thế bé ăn được Xe đối phương trong 1 nước thẳng</td></tr></tbody></table>
+<hr>
+<h3>BUỔI 5 — Tượng đi chéo + mẹo tự kiểm</h3>
+<p><strong>"Xong" trông như thế nào:</strong> bé <strong>tự nói được</strong> màu ô của Tượng mình, không cần hỏi.</p>
+<p>Mẹo "Tượng đen thì đen mãi mãi" quan trọng hơn cả cách đi: nó cho bé <strong>công cụ tự kiểm không cần người lớn</strong> — và tự chủ là thứ kéo dài thời gian chú ý nhất ở tuổi này (mục 5.7).</p>
+<h4>① Ôn cho người lớn — 1 phút</h4>
+<ul><li>Đặt 1 Tượng, đi 5 nước chéo, tự soát: <strong>màu ô không bao giờ đổi</strong>.</li><li>Thuộc câu: <strong>"Tượng đi chéo. Và bạn ấy ở ô màu gì thì ở màu đó mãi mãi."</strong></li><li>Nhắc mình: buổi này <strong>xu chỉ được đặt trên ô cùng màu với Tượng</strong>. Đặt nhầm màu = bài không giải được = bé nản.</li></ul>
+<h4>② Bày bàn</h4>
+<p>Tượng trắng ở <code>c1</code> (<strong>ô đen</strong>). 5 xu — <strong>tất cả trên ô đen</strong>: <code>b2</code>, <code>a3</code>, <code>c5</code>, <code>e3</code>, <code>g5</code>.</p>
+<pre><code>   a  b  c  d  e  f  g  h
+8  .  .  .  .  .  .  .  .
+7  .  .  .  .  .  .  .  .
+6  .  .  .  .  .  .  .  .
+5  .  .  o  .  .  .  o  .
+4  .  .  .  .  .  .  .  .
+3  o  .  .  .  o  .  .  .
+2  .  o  .  .  .  .  .  .
+1  .  .  T  .  .  .  .  .</code></pre>
+<p>⚠ <strong>Kiểm tra trước khi gọi bé — HAI bước, đừng bỏ bước 2:</strong></p>
+<ol><li><strong>Màu ô:</strong> đặt ngón tay lên Tượng rồi lần lượt từng xu — tất cả phải <strong>cùng màu ô</strong>.</li><li><strong>Tới được thật không:</strong> trượt ngón tay theo đường chéo từ Tượng, kiểm <strong>từng xu có nằm trên một đường chéo đi tới được không</strong>. Cùng màu ô là <strong>chưa đủ</strong> — có ô cùng màu mà Tượng phải đi 2 nước mới tới. Bộ 5 xu ở trên đã được kiểm: có đường ăn hết trong <strong>5 nước</strong>, mỗi nước ăn 1 xu:</li></ol>
+<p>   <code>c1 → b2 → a3 → c5 → e3 → g5</code></p>
+<p><strong>Đừng tự đổi ô xu.</strong> Đổi sang ô cùng màu vẫn có thể làm bài không giải được trong 5 nước — đó chính là lỗi mà bước 2 sinh ra để bắt.</p>
+<h4>③ Lời thoại gợi ý</h4>
+<blockquote><p><strong>Ôn 1 phút:</strong><br>"Hôm qua hai bạn Xe đấu nhau, ai thắng ấy nhỉ?" <em>(chuyện trò, không kiểm tra)</em></p></blockquote>
+<blockquote><p><strong>Giới thiệu Tượng:</strong><br>"Đây là bạn <strong>Tượng</strong>. Bạn ấy không đi thẳng như Xe đâu — bạn ấy đi <strong>chéo</strong>."<br><em>(trượt ngón tay theo đường chéo — cho nhìn, đừng chỉ nói)</em><br>"Con đẩy thử một nước xem."</p></blockquote>
+<blockquote><p><strong>Gieo mẹo tự kiểm — quan trọng nhất buổi này:</strong><br>"Con nhìn xem bạn Tượng đang đứng ô màu gì?"<br><em>(bé: "đen")</em><br>"Giờ con đi thêm một nước nữa đi... Ô màu gì?"<br><em>(bé: "đen")</em><br>"Nữa đi... Màu gì?"<br><em>(bé: "đen!")</em><br>"Ơ, lạ nhỉ! <strong>Tượng đen thì đen mãi mãi.</strong> Bạn ấy không sang được ô trắng bao giờ luôn.<br><strong>Mà Tượng trắng thì cũng trắng mãi mãi</strong> — bạn Tượng nào cũng giữ nguyên màu ô của mình."<br><em>(nửa câu sau quan trọng: buổi 6 bé sẽ cầm một Tượng <strong>ô trắng</strong>. Nếu chỉ thuộc "đen thì đen mãi mãi", bé sẽ tưởng mẹo không áp dụng được.)</em></p></blockquote>
+<blockquote><p><strong>Vào trò "Tượng ăn xu":</strong><br>"Trên bàn có 5 cái xu, cái nào cũng đứng ô đen — vừa đúng màu của Tượng con. Con đi thu hết nhé."</p></blockquote>
+<blockquote><p><strong>Khi bé lưỡng lự:</strong><br>"Xu kia màu ô gì? Vậy Tượng mình tới được không?"</p></blockquote>
+<blockquote><p><strong>Nếu bé đi một nước không ăn được xu nào — KHÔNG sửa:</strong><br>"Ừ, đi qua đấy cũng được. Giờ tới xu nào được nhỉ?"<br><em>(thế này ăn hết được trong 5 nước, nhưng chỉ có <strong>đúng một</strong> đường. Bé đi 6–7 nước là bình thường và vẫn đạt — buổi 5 không đếm nước.)</em></p></blockquote>
+<blockquote><p><strong>Câu chốt:</strong><br>"Con tự biết Tượng của con ở ô đen mà bố/mẹ không phải nhắc."</p></blockquote>
+<h4>④ Sửa lỗi — giao thức 1-nước</h4>
+<table><thead><tr><th>Lỗi hay gặp</th><th>HÃY nói</th></tr></thead><tbody><tr><td>Bé đi Tượng thẳng (lẫn với Xe)</td><td><em>(chờ tay rời quân)</em> → <strong>"Tượng đi kiểu gì ấy nhỉ?"</strong></td></tr><tr><td>Bé đi chéo nhưng lệch, sang ô khác màu</td><td><strong>"Tượng mình màu ô gì? Còn ô con vừa đặt?"</strong> → bé tự thấy</td></tr><tr><td>Bé nhảy Tượng qua đầu quân chắn</td><td>"Trên đường chéo có ai đứng không nhỉ?" <em>(chưa có quân chắn ở thế này, chỉ dùng nếu bé tự thêm quân)</em></td></tr><tr><td>Bé hỏi "sao Tượng không đi thẳng được?"</td><td><strong>"Ừ, mỗi bạn có kiểu đi riêng."</strong> Không giải thích thêm</td></tr><tr><td>Bé lẫn Xe/Tượng 3 lần</td><td><strong>Ngừng sửa.</strong> Ghi bảng. Buổi 6 sẽ tự phân giải vì hai quân đứng cạnh nhau</td></tr></tbody></table>
+<h4>⑤ Điều kiện dừng sớm</h4>
+<table><thead><tr><th>Tình huống</th><th>Hành động</th></tr></thead><tbody><tr><td>Bé tự nói "đen mãi mãi" mà không cần hỏi</td><td><strong>Mục tiêu buổi đã đạt.</strong> Chơi nốt lượt đang chơi rồi dừng</td></tr><tr><td>Bé lẫn Tượng với Xe liên tục ở lượt 1</td><td>Đơn giản hoá ngay: <strong>1 Tượng + 2 xu</strong>, cả 2 xu nằm <strong>đúng trên đường chéo</strong> hiện tại của Tượng</td></tr><tr><td>Bé nản vì "không tới được" xu</td><td>Kiểm lại ngay — có xu nào đặt nhầm ô khác màu không? Nếu có, <strong>đó là lỗi người lớn</strong>: "À, bố/mẹ đặt nhầm rồi, xin lỗi con" → sửa</td></tr><tr><td>Bé xin đổi sang chơi Xe</td><td>Cho chơi Xe 1 lượt rồi kết buổi. <strong>Trò bé tự chọn</strong> kéo dài chú ý tốt nhất — nhưng buổi này coi như chưa hoàn thành, lặp lại nội dung Tượng ở buổi sau</td></tr><tr><td>2 tín hiệu</td><td>Dừng ngay. Kết: đặt 1 xu cách Tượng đúng 1 nước chéo → bé ăn → khen</td></tr></tbody></table>
+<hr>
+<h3>BUỔI 6 — Xe + Tượng cùng bàn (ván thật đầu tiên)</h3>
+<p><strong>"Xong" trông như thế nào:</strong> chơi trọn <strong>1 ván</strong>, <strong>không phải nhắc cách đi quân</strong>.</p>
+<p>Đây là <strong>cửa nghiệm thu không chính thức của Phase 1</strong>. Nếu bé chơi trọn ván mà không cần nhắc cách đi Xe/Tượng, Phase 1 đã làm xong việc của nó.</p>
+<h4>① Ôn cho người lớn — 2 phút</h4>
+<ul><li>Đi 3 nước Xe + 3 nước Tượng liên tiếp, không ngập ngừng.</li><li>Chuẩn bị tinh thần: <strong>ván này người lớn phải thua 2/3 lần</strong>, và thua <em>tự nhiên</em> — đi vào đường quân của bé, để quân không được bảo vệ. <strong>Không cho không quân 2 nước liền</strong> (bé sẽ nhận ra).</li><li>Đây là buổi <strong>nên dùng</strong> "người lớn cố tình đi sai 1 nước" — kể cả đã dùng ở buổi 4. Mục 5.4 quy định <strong>mỗi 2–3 buổi một lần</strong>, không phải một lần cho cả Phase 1.</li></ul>
+<h4>② Bày bàn</h4>
+<p>Mỗi bên 1 Xe + 1 Tượng. Ăn sạch quân đối phương thì thắng.</p>
+<pre><code>   a  b  c  d  e  f  g  h
+8  .  .  .  .  .  .  .  .
+7  .  .  .  T  .  .  X  .   ← Tượng + Xe người lớn
+6  .  .  .  .  .  .  .  .
+5  .  .  .  .  .  .  .  .
+4  .  .  .  .  .  .  .  .
+3  .  .  .  .  .  .  .  .
+2  .  X  .  .  T  .  .  .   ← Xe + Tượng của bé
+1  .  .  .  .  .  .  .  .</code></pre>
+<p>Bé: Xe <code>b2</code> + Tượng <code>e2</code>. Người lớn: Tượng <code>d7</code> + Xe <code>g7</code>.</p>
+<p>⚠ <strong>Thế này đã được kiểm, đừng tự đổi ô.</strong> Ba điều kiện phải giữ cùng lúc:</p>
+<ol><li><strong>Hai Tượng cùng màu ô.</strong> <code>e2</code> và <code>d7</code> đều là <strong>ô TRẮNG</strong> → hai Tượng có thể gặp nhau. Nếu để khác màu, hai Tượng vĩnh viễn không đụng nhau và ván thành lê thê.</li></ol>
+<p>   <em>(Hôm qua bé học mẹo với một Tượng ô đen. Hôm nay Tượng của bé là ô <strong>trắng</strong> — đó là lý do buổi 5 phải nói thêm nửa câu "Tượng trắng thì trắng mãi mãi". Nếu bé thắc mắc: "Ừ, bạn Tượng này ở ô trắng, nên bạn ấy trắng mãi mãi.")</em></p>
+<ol><li><strong>Không ai ăn được ở nước 1.</strong> Hai Xe khác hàng khác cột (<code>b2</code> vs <code>g7</code>); không Xe nào đứng cùng hàng/cột với Tượng đối phương; không Tượng nào nằm trên đường chéo của Tượng hay Xe đối phương.</li><li><strong>Đặc biệt tránh: Xe đứng cùng cột với Tượng đối phương.</strong> Đó là cách hỏng ván nhanh nhất — bé ăn không quân ở nước đầu, ván tụt xuống thành Xe-đấu-Xe (đã chơi ở buổi 4) và buổi 6 mất sạch nội dung Tượng.</li></ol>
+<p>Kiểm nhanh trước khi gọi bé: đặt ngón tay lên hai Tượng — <strong>cùng màu ô</strong>; rồi trượt ngón tay dọc hàng và cột của mỗi Xe — <strong>không chạm quân nào của bên kia</strong>.</p>
+<p>Bé đi trước.</p>
+<h4>③ Lời thoại gợi ý</h4>
+<blockquote><p><strong>Ôn 1 phút — cho bé làm mẫu, đừng hỏi lý thuyết:</strong><br>"Con đi cho bố/mẹ xem một nước Xe... rồi một nước Tượng."</p></blockquote>
+<blockquote><p><strong>Giới thiệu ván:</strong><br>"Hôm nay mình chơi thật nhé. Mỗi bên có một bạn Xe và một bạn Tượng. <strong>Ai ăn hết quân của bên kia thì thắng.</strong> Con đi trước."</p></blockquote>
+<blockquote><p><strong>Trong ván — chỉ nói khi cần, im lặng là mặc định:</strong><br>"Đến lượt con."<br>"Quân nào của con đang đứng gần bạn kia nhỉ?"</p></blockquote>
+<blockquote><p><strong>Khi bé đi vào ô bị ăn (nhắc lại khái niệm buổi 4, tối đa 1 lần/ván):</strong><br>"Xe kia đi thẳng, có tới chỗ đó được không?"</p></blockquote>
+<blockquote><p><strong>Người lớn cố tình đi sai — 1 lần trong ván:</strong><br><em>(đẩy Tượng đi thẳng như Xe)</em> → chờ 3 giây.<br>Bé bắt được → <strong>"Ối! Con bắt được bố/mẹ rồi. Tượng đi chéo mới đúng."</strong><br>Bé không bắt được → tự sửa: "Ơ mà không phải, Tượng đi chéo chứ" → <em>(vẫn có giá trị: bé thấy người lớn cũng sai và cũng sửa)</em></p></blockquote>
+<blockquote><p><strong>Câu chốt (nếu bé chơi trọn ván không cần nhắc):</strong><br>"Con chơi hết cả ván mà bố/mẹ không phải nhắc quân nào đi kiểu gì luôn."</p></blockquote>
+<h4>④ Sửa lỗi — giao thức 1-nước</h4>
+<table><thead><tr><th>Lỗi hay gặp</th><th>HÃY nói</th></tr></thead><tbody><tr><td>Bé đi Tượng thẳng / Xe chéo</td><td><em>(chờ tay rời quân)</em> → <strong>"Bạn ấy đi kiểu gì ấy nhỉ?"</strong> → cho đi lại</td></tr><tr><td>Bé cầm nhầm quân</td><td>Không sửa. Cho đặt lại, không bình luận</td></tr><tr><td>Bé để mất cả 2 quân nhanh</td><td>Không sửa. <strong>Ván tiếp theo người lớn thua.</strong> Không giảng chiến thuật — đó là non-goal</td></tr><tr><td>Bé đòi ăn 2 quân trong 1 nước</td><td>"Xe mình đi được mấy nước một lượt?"</td></tr><tr><td>Bé sai cách đi lần thứ 3</td><td><strong>Ngừng sửa.</strong> Ghi bảng → nghĩa là <strong>Phase 1 chưa xong</strong>, xem mục "Nghiệm thu" dưới</td></tr></tbody></table>
+<h4>⑤ Điều kiện dừng sớm</h4>
+<table><thead><tr><th>Tình huống</th><th>Hành động</th></tr></thead><tbody><tr><td>Ván 1 xong trong 6–7 phút, bé muốn chơi nữa</td><td>Chơi ván 2. Dừng ở phút 11–12 dù ván chưa xong — <strong>"mai mình chơi tiếp ván này nhé"</strong>, để nguyên thế trên bàn</td></tr><tr><td>Ván kéo dài, hai bên rượt nhau không ăn được gì</td><td>Người lớn <strong>chủ động đưa 1 quân vào đường bé ăn</strong> để ván có kết quả. Ván không kết thúc là kịch bản tệ nhất</td></tr><tr><td>Bé rời mắt 2 lần</td><td><strong>S1</strong> → trò tay 60–90 giây → quay lại 1 lần → tối đa +3 phút → dừng</td></tr><tr><td>2 tín hiệu giữa ván</td><td>Dừng ngay, <strong>để nguyên bàn cờ</strong>. "Ván này mình để đây, mai chơi tiếp." Không dọn</td></tr><tr><td>Bé thắng và đòi chơi ván 3</td><td><strong>Từ chối một cách vui vẻ:</strong> "Mai nhé, mai mình chơi tiếp." → đây chính là lúc <strong>sản xuất</strong> chỉ số "bé tự đòi chơi"</td></tr></tbody></table>
+<hr>
+<h2>PHẦN 3 — Nghiệm thu Phase 1</h2>
+<h3>Success Criteria (điều kiện mở Phase 2)</h3>
+<ul><li>[ ] <strong>Buổi 1:</strong> bé tự quay bàn đúng hướng 2 lần liên tiếp</li><li>[ ] <strong>Buổi 2:</strong> 10/10 nước Xe đi đúng đường thẳng — <strong>đếm cộng dồn qua 2–3 lượt</strong>, một lượt chỉ ~6 nước nên không đủ mẫu để tick ô này</li><li>[ ] <strong>Buổi 3:</strong> ăn hết 5 Tốt bia trong ≤6 nước</li><li>[ ] <strong>Buổi 4:</strong> 2/3 ván bé không tự đi vào ô bị ăn</li><li>[ ] <strong>Buổi 5:</strong> bé tự nói được màu ô của Tượng, không cần hỏi</li><li>[ ] <strong>Buổi 6:</strong> chơi trọn 1 ván Xe+Tượng, <strong>không phải nhắc cách đi quân</strong></li><li>[ ] Bảng theo dõi có đủ <strong>3 con số cho ≥5/6 buổi</strong></li><li>[ ] <strong>≤1/6 buổi</strong> bị dừng vì 2 tín hiệu</li></ul>
+<h3>Dữ liệu bắt buộc thu được (đầu vào để viết Phase 2)</h3>
+<p>Không có mấy con số này thì <strong>không viết Phase 2</strong> — sẽ viết theo tưởng tượng và phải viết lại.</p>
+<table><thead><tr><th>Dữ liệu</th><th>Ghi ở đâu</th><th>Dùng để làm gì</th></tr></thead><tbody><tr><td><strong>Trung vị số phút thực</strong> của 6 buổi</td><td>Bảng theo dõi</td><td>Quyết định Phase 2 dùng 5 buổi hay 6–7 buổi</td></tr><tr><td>Số buổi dừng vì tín hiệu / vì hết nội dung</td><td>Bảng theo dõi</td><td>Đo tải nhận thức thực tế</td></tr><tr><td>Số lần bé <strong>tự đòi chơi</strong> trong Phase 1</td><td>Đếm thô</td><td>Baseline cho Success Metric mục tiêu 2</td></tr><tr><td><strong>Trò bé thích nhất</strong></td><td>Quan sát</td><td>Tái dùng format đó ở Phase 2, và làm "trò cứu" khi bé nản</td></tr><tr><td>Lỗi lặp lại chưa xử lý được</td><td>Bảng theo dõi</td><td>Chèn vào Phase 2 dưới dạng trò riêng</td></tr></tbody></table>
+<h3>Nếu Phase 1 không đạt</h3>
+<p>Không có "cửa kiểm tra" chính thức ở đây (CỬA 1 ở buổi 16, CỬA 2 ở buổi 21 — không đổi). Nhưng:</p>
+<ul><li><strong>Bé còn nhắc cách đi Xe/Tượng ở buổi 6</strong> → chèn 1–2 buổi lặp lại trò bé thích nhất, <strong>không dạy gì mới</strong>, rồi đánh lại buổi 6. Đây là lặp <em>trong</em> Phase 1, không phải trượt.</li><li><strong>≥3 buổi trong Phase 1 bị dừng sớm</strong> (không cần liên tiếp) → kích hoạt leo thang mục 5.3: <strong>NGHỈ TRỌN 3 NGÀY</strong>, không nhắc chữ "cờ". Ngày quay lại chỉ chơi lại trò bé thích nhất.</li></ul>
+<p>  <em>(Mục 5.3 ghi "3 buổi <strong>liên tiếp</strong>". Riêng Phase 1 siết chặt hơn <strong>có chủ đích</strong>: 3/6 buổi đầu là tỉ lệ 50%, đủ để coi là tín hiệu thật kể cả khi rải rác. Phase 1 cũng là lúc dễ nhận ra bé chưa sẵn sàng nhất. Từ Phase 2 trở đi dùng đúng nguyên văn "3 buổi liên tiếp".)</em></p>
+<ul><li><strong>Trung vị &lt;6 phút</strong> → bé thuộc nhóm chú ý ngắn hơn trung bình. <strong>Sửa bản đồ, đừng ép bé vào bản đồ</strong> (mục 7): giãn Phase 2 và Phase 3, chấp nhận tổng ~36 buổi.</li></ul>
+<hr>
+<h2>Risk Assessment</h2>
+<table><thead><tr><th>Rủi ro</th><th>Tín hiệu quan sát được</th><th>Phản ứng đã định</th></tr></thead><tbody><tr><td><strong>Buổi 4 quá khó</strong> — "ô bị kiểm soát" là khái niệm trừu tượng đầu tiên</td><td>Bé đi vào ô bị ăn cả 3 ván, kèm S1/S2</td><td><strong>Không lặp buổi 4.</strong> Ghi bảng, đi tiếp. Khái niệm này quay lại tự nhiên ở buổi 10–11 (chiếu) với ngữ cảnh mạnh hơn</td></tr><tr><td><strong>Buổi 3 rò rỉ luật Tốt</strong> — người lớn buột miệng giải thích quân bia</td><td>Bạn vừa nói "Tốt đi thẳng một ô..."</td><td>Dừng câu giữa chừng: "mai mốt mình làm quen bạn ấy". Tốt được để dành tới buổi 17 <strong>có lý do</strong></td></tr><tr><td><strong>Buổi 5 bày sai màu ô</strong> → bài không giải được</td><td>Bé cố mãi không tới được 1 xu</td><td>Lỗi người lớn. Nhận lỗi ra miệng, sửa ngay. Kiểm màu ô <strong>trước</strong> khi gọi bé</td></tr><tr><td><strong>Người lớn kéo dài buổi đang vui</strong></td><td>Buổi chạm 15 phút ≥2 lần trong 6 buổi</td><td>Đặt chuông rung ở phút 10. Lỗi phổ biến nhất của phụ huynh (mục 3)</td></tr><tr><td><strong>Ma sát bày bàn</strong> — phụ huynh đã chọn bày-rồi-cất (R1), nên rủi ro này <strong>không được che</strong></td><td>≥2 buổi bị bỏ vì "ngại bày", hoặc bày mất &gt;60 giây</td><td>Ma sát khởi động là <strong>nguyên nhân bỏ dở số 1</strong> (mục 4, hạng #1). Chuyển sang <strong>để bàn cố định</strong> — đây là ngưỡng đã định trước để đảo quyết định, không phải thất bại</td></tr><tr><td><strong>Phụ huynh bỏ dở</strong> — rủi ro số 1 của cả chương trình</td><td>Nghỉ 2 ngày liền</td><td>Ngày thứ 3 <strong>bắt buộc</strong> buổi tối thiểu 3 phút, 1 trò cũ, không nội dung mới. Tính là <strong>ngày duy trì</strong>, <strong>không</strong> tính là tiến 1 buổi</td></tr><tr><td><strong>Bé thắng 100%</strong> vì người lớn nhường quá</td><td>Bé chưa thua ván nào ở buổi 4 và 6</td><td>Chỉ tiêu là bé thắng <strong>60–70%</strong>. Người lớn thắng 1 ván ở buổi 6 là đúng thiết kế</td></tr></tbody></table>
+<h2>Rollback</h2>
+<p>Phase 1 không có gì để rollback về mặt kỹ thuật. Đường lùi duy nhất là <strong>giãn lịch</strong>, không phải bỏ nội dung:</p>
+<ul><li>Chèn buổi lặp trong Phase 1 → không tính là buổi mới trên bảng 30 ô</li><li>Nghỉ 3 ngày → tiếp tục từ đúng buổi bị dừng</li><li>2 lần nghỉ 3 ngày → <strong>nghỉ 2 tuần</strong>, cất thế cờ nhưng để bàn ở nơi bé thấy, <strong>không mời</strong>. Điều kiện quay lại: <strong>bé tự đòi</strong>, hoặc sau 2 tuần mời <strong>đúng 1 lần</strong>; bé từ chối → <strong>dừng chương trình, thử lại sau 3 tháng</strong>. Ở tuổi 5, đó là <strong>chưa tới thời điểm, không phải thất bại</strong>.</li></ul><div class="nav"><a href="index.html">← Về mục lục 30 buổi</a></div>
+</div></body>
+</html>
