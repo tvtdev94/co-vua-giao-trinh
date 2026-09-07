@@ -15,8 +15,8 @@ Script tu kiem sau khi ghi: du 30 file, buoi 1-6 khop byte voi phase-01,
 va moi link dieu huong tro toi file co that.
 """
 
+import importlib.util
 import io
-import json
 import os
 import re
 import sys
@@ -145,7 +145,11 @@ def nav(n):
 
 
 def extract_sessions():
-    """Cat 6 buoi ra khoi PHAN 2 cua phase-01, giu nguyen van."""
+    """Cat 6 buoi ra khoi PHAN 2 cua phase-01, giu nguyen van.
+
+    Dung de doi chieu, khong con dung lam noi dung file buoi nua — xem
+    concise_body().
+    """
     md = io.open(SRC, encoding="utf-8").read()
     part2 = md[md.index("## PHẦN 2 — Sáu buổi"):
                md.index("## PHẦN 3 — Nghiệm thu Phase 1")]
@@ -159,6 +163,87 @@ def extract_sessions():
         body = re.sub(r"\n+---\s*$", "", body).strip()
         out[int(m.group(2))] = (m.group(1).split("—", 1)[1].strip(), body)
     return out
+
+
+def load_concise():
+    """Lay ban rut gon da soan san trong make-print-pages.py.
+
+    Ban in va file buoi dung CHUNG mot nguon, nen khong the lech nhau.
+    """
+    path = os.path.join(HERE, "make-print-pages.py")
+    spec = importlib.util.spec_from_file_location("_mpp", path)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return {s["n"]: s for s in mod.SESSIONS}, mod.BOARDS, mod.SETUP_NOTE
+
+
+def html2md(s):
+    """Doi vai the HTML trong ban in sang Markdown."""
+    s = re.sub(r"<b>(.*?)</b>", r"**\1**", s, flags=re.S)
+    s = re.sub(r"<i>(.*?)</i>", r"*\1*", s, flags=re.S)
+    s = s.replace("&gt;", ">").replace("&lt;", "<").replace("&amp;", "&")
+    return s.strip()
+
+
+def ascii_board(n, boards):
+    """Ve lai so do tu BOARDS — cung nguon voi ban in, khong go tay."""
+    if not boards[n]:
+        return ""
+    files = "abcdefgh"
+    rows = ["   " + "  ".join(files)]
+    for r in range(8, 0, -1):
+        cells = [boards[n].get(f + str(r), ".") for f in files]
+        rows.append("%d  %s" % (r, "  ".join(cells)))
+    return "```\n%s\n```" % "\n".join(rows)
+
+
+def concise_body(n, sess, boards, setup, ex):
+    """Mot buoi o dang ngan: doc duoc trong 1 phut ngay tai ban co."""
+    s = sess[n]
+    o = ["**Xong khi:** %s" % html2md(s["done"]), ""]
+
+    o.append("## Bày bàn")
+    o.append("")
+    o.append(html2md(setup[n]))
+    board = ascii_board(n, boards)
+    if board:
+        o += ["", board]
+    o.append("")
+
+    o.append("## Trước khi gọi bé")
+    o.append("")
+    o += ["- %s" % html2md(x) for x in s["prep"]]
+    o.append("")
+
+    o.append("## Lời thoại")
+    o.append("")
+    o += ["> %s" % html2md(x) for x in s["lines"]]
+    o.append("")
+
+    if s.get("warn"):
+        o += ["> ⚠ %s" % html2md(s["warn"]), ""]
+
+    o.append("## Bé sai thì nói gì")
+    o.append("")
+    o.append("| Bé làm gì | HÃY nói |")
+    o.append("|---|---|")
+    o += ["| %s | %s |" % (html2md(a), html2md(b)) for a, b in s["fix"]]
+    o.append("")
+
+    o.append("## Khi nào dừng")
+    o.append("")
+    o.append("| Tình huống | Làm gì |")
+    o.append("|---|---|")
+    o += ["| %s | %s |" % (html2md(a), html2md(b)) for a, b in s["stop"]]
+    o.append("")
+
+    o.append("<details><summary>Bản đầy đủ — lý do đằng sau từng bước "
+             "(đọc khi rảnh, không cần đọc trước buổi)</summary>")
+    o.append("")
+    o.append(ex[n][1])
+    o.append("")
+    o.append("</details>")
+    return "\n".join(o)
 
 
 def frame_body(n, ph):
@@ -187,12 +272,14 @@ def build():
     if not os.path.isdir(OUTDIR):
         os.makedirs(OUTDIR)
     ex = extract_sessions()
+    sess, boards, setup = load_concise()
     written = []
     for n in range(1, 31):
         ph = phase_of(n)
         pname = PHASE[ph][2]
         if n <= 6:
-            title, body = ex[n]
+            title = ex[n][0]
+            body = concise_body(n, sess, boards, setup, ex)
             detail = "day-du"
         else:
             title = FRAME[n][0]
@@ -221,10 +308,30 @@ def build():
         path = os.path.join(OUTDIR, fname(n))
         io.open(path, "w", encoding="utf-8", newline="\n").write(doc)
         written.append((n, fname(n), len(doc)))
-    return written, ex
+    return written, ex, boards
 
 
-def verify(written, ex):
+def parse_board(body):
+    """Doc lai so do DAU TIEN trong file (ban rut gon) thanh dict {o: ky hieu}."""
+    files = "abcdefgh"
+    block = re.search(r"```\n(   a  b  c.*?)\n```", body, re.S)
+    if not block:
+        return None
+    out = {}
+    for line in block.group(1).splitlines():
+        m = re.match(r"^([1-8])  (.*)$", line)
+        if not m:
+            continue
+        cells = m.group(2).split()
+        if len(cells) != 8:
+            return None
+        for fi, c in enumerate(cells):
+            if c != ".":
+                out[files[fi] + m.group(1)] = c
+    return out
+
+
+def verify(written, ex, boards):
     """Doc lai tu dia. Sai la dung, khong im lang xuat ra ban hong."""
     errs = []
     if len(written) != 30:
@@ -233,9 +340,13 @@ def verify(written, ex):
     names = {f for _, f, _ in written}
     for n, f, _ in written:
         body = io.open(os.path.join(OUTDIR, f), encoding="utf-8").read()
-        # Buoi 1-6 phai chua nguyen van noi dung goc.
-        if n <= 6 and ex[n][1] not in body:
-            errs.append("buoi %d: noi dung KHONG khop phase-01" % n)
+        if n <= 6:
+            # Ban day du phai con nguyen van trong phan <details>.
+            if ex[n][1] not in body:
+                errs.append("buoi %d: ban day du KHONG khop phase-01" % n)
+            # So do rut gon phai khop BOARDS da qua tu kiem cua ban in.
+            if boards[n] and parse_board(body) != boards[n]:
+                errs.append("buoi %d: so do rut gon lech voi BOARDS" % n)
         # Moi link dieu huong phai tro toi file co that.
         for link in re.findall(r"\]\(\./(buoi-\d\d-[a-z0-9-]+\.md)\)", body):
             if link not in names:
@@ -247,14 +358,15 @@ def verify(written, ex):
 
 
 def main():
-    written, ex = build()
-    verify(written, ex)
+    written, ex, boards = build()
+    verify(written, ex, boards)
     total = sum(s for _, _, s in written)
     full = sum(1 for n, _, _ in written if n <= 6)
     print("Da tao 30 file trong buoi/ (%s KB)" % format(total // 1024, ","))
-    print("  %d buoi chi tiet day du (1-6), nguyen van tu phase-01" % full)
+    print("  %d buoi ban ngan (1-6) — cung nguon voi ban in;" % full)
+    print("    ban day du giu trong <details>, da doi chieu voi phase-01")
     print("  %d buoi moi co khung da chot (7-30)" % (30 - full))
-    print("Tat ca link dieu huong da qua tu kiem.")
+    print("So do va link dieu huong da qua tu kiem.")
 
 
 if __name__ == "__main__":

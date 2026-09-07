@@ -14,6 +14,61 @@ status: pending
 
 ---
 
+**Xong khi:** Bé **tự nói được** màu ô của Tượng mình, không cần hỏi
+
+## Bày bàn
+
+1 Tượng + 5 xu, TẤT CẢ ô đen. Kiểm 2 bước: màu ô VÀ tính tới được.
+
+```
+   a  b  c  d  e  f  g  h
+8  .  .  .  .  .  .  .  .
+7  .  .  .  .  .  .  .  .
+6  .  .  .  .  .  .  .  .
+5  .  .  o  .  .  .  o  .
+4  .  .  .  .  .  .  .  .
+3  o  .  .  .  o  .  .  .
+2  .  o  .  .  .  .  .  .
+1  .  .  T  .  .  .  .  .
+```
+
+## Trước khi gọi bé
+
+- Đặt 1 Tượng, đi 5 nước chéo, tự soát: **màu ô không bao giờ đổi**.
+- Thuộc câu: **“Tượng đi chéo. Và bạn ấy ở ô màu gì thì ở màu đó mãi mãi.”**
+- **Kiểm 2 bước trước khi gọi bé:** (1) tất cả xu cùng màu ô với Tượng; (2) từng xu có nằm trên đường chéo **đi tới được** không. Cùng màu là CHƯA ĐỦ.
+
+## Lời thoại
+
+> **Ôn:** “Hôm qua hai bạn Xe đấu nhau, ai thắng ấy nhỉ?” *(chuyện trò, không kiểm tra)*
+> “Đây là bạn **Tượng**. Bạn ấy không đi thẳng như Xe đâu — bạn ấy đi **chéo**.” *(trượt ngón tay theo đường chéo)*
+> **Gieo mẹo — quan trọng nhất buổi:** “Con nhìn xem bạn Tượng đang đứng ô màu gì?” → “Giờ đi thêm một nước… Ô màu gì?” → “Nữa đi… Màu gì?”
+> “Ơ, lạ nhỉ! **Tượng đen thì đen mãi mãi.** **Mà Tượng trắng thì cũng trắng mãi mãi** — bạn Tượng nào cũng giữ nguyên màu ô của mình.”
+> “Trên bàn có 5 cái xu, cái nào cũng đứng ô đen — vừa đúng màu của Tượng con. Con đi thu hết nhé.”
+> **Chốt:** “Con tự biết Tượng của con ở ô đen mà bố/mẹ không phải nhắc.”
+
+> ⚠ BUỔI NÀY KHÔNG ĐẾM NƯỚC. Đường 5 nước là DUY NHẤT — bé đi 6–7 nước vẫn đạt. Đừng lấy số 5 làm mục tiêu rồi sửa bé lệch khỏi đường đó.
+
+## Bé sai thì nói gì
+
+| Bé làm gì | HÃY nói |
+|---|---|
+| Đi Tượng thẳng (lẫn với Xe) | *(chờ tay rời quân)* → **“Tượng đi kiểu gì ấy nhỉ?”** |
+| Đi chéo nhưng lệch sang ô khác màu | **“Tượng mình màu ô gì? Còn ô con vừa đặt?”** → bé tự thấy |
+| Hỏi “sao Tượng không đi thẳng được?” | **“Ừ, mỗi bạn có kiểu đi riêng.”** Không giải thích thêm |
+| Lẫn Xe/Tượng 3 lần | **Ngừng sửa.** Ghi bảng. Buổi 6 sẽ tự phân giải |
+
+## Khi nào dừng
+
+| Tình huống | Làm gì |
+|---|---|
+| Tự nói “đen mãi mãi” không cần hỏi | **Mục tiêu đã đạt.** Chơi nốt lượt rồi dừng |
+| Lẫn Tượng với Xe liên tục ở lượt 1 | Đơn giản hoá: **1 Tượng + 2 xu**, cả 2 nằm đúng trên đường chéo hiện tại |
+| Nản vì “không tới được” xu | Kiểm lại ngay. Nếu đặt sai → **lỗi người lớn**: “À, bố/mẹ đặt nhầm rồi, xin lỗi con” |
+| Xin đổi sang chơi Xe | Cho chơi Xe 1 lượt rồi kết buổi. Buổi này coi như chưa xong, lặp nội dung Tượng buổi sau |
+
+<details><summary>Bản đầy đủ — lý do đằng sau từng bước (đọc khi rảnh, không cần đọc trước buổi)</summary>
+
 **"Xong" trông như thế nào:** bé **tự nói được** màu ô của Tượng mình, không cần hỏi.
 
 Mẹo "Tượng đen thì đen mãi mãi" quan trọng hơn cả cách đi: nó cho bé **công cụ tự kiểm không cần người lớn** — và tự chủ là thứ kéo dài thời gian chú ý nhất ở tuổi này (mục 5.7).
@@ -101,6 +156,8 @@ Tượng trắng ở `c1` (**ô đen**). 5 xu — **tất cả trên ô đen**: 
 | Bé nản vì "không tới được" xu | Kiểm lại ngay — có xu nào đặt nhầm ô khác màu không? Nếu có, **đó là lỗi người lớn**: "À, bố/mẹ đặt nhầm rồi, xin lỗi con" → sửa |
 | Bé xin đổi sang chơi Xe | Cho chơi Xe 1 lượt rồi kết buổi. **Trò bé tự chọn** kéo dài chú ý tốt nhất — nhưng buổi này coi như chưa hoàn thành, lặp lại nội dung Tượng ở buổi sau |
 | 2 tín hiệu | Dừng ngay. Kết: đặt 1 xu cách Tượng đúng 1 nước chéo → bé ăn → khen |
+
+</details>
 
 ---
 

@@ -54,6 +54,11 @@ th { background:#f4f4f2; font-weight:600; }
 .lead { font-size:1.02rem; color:#333; }
 .note { background:#fffbe9; border:1px solid #f0e2b0; border-radius:7px;
   padding:.8rem 1rem; font-size:.93rem; margin:1.2rem 0; }
+details { margin:2rem 0 0; border-top:1px solid var(--line); padding-top:1rem; }
+details summary { cursor:pointer; font-size:.9rem; color:var(--mut);
+  padding:.5rem 0; list-style-position:outside; }
+details summary:hover { color:var(--accent); }
+details[open] summary { margin-bottom:.5rem; font-weight:600; }
 @media (max-width:34rem){ .wrap{padding:1.1rem .85rem 3rem;} h1{font-size:1.35rem;} }
 </style>
 </head>

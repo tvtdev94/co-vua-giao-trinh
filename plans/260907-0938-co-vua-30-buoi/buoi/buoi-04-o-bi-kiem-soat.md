@@ -14,6 +14,62 @@ status: pending
 
 ---
 
+**Xong khi:** **2/3 ván** bé không tự đi vào ô bị ăn
+
+## Bày bàn
+
+2 Xe đối kháng. Khác hàng, khác cột — không ai ăn được ngay.
+
+```
+   a  b  c  d  e  f  g  h
+8  .  .  .  .  .  .  .  .
+7  .  .  .  .  .  .  x  .
+6  .  .  .  .  .  .  .  .
+5  .  .  .  .  .  .  .  .
+4  .  .  .  .  .  .  .  .
+3  .  .  .  .  .  .  .  .
+2  .  X  .  .  .  .  .  .
+1  .  .  .  .  .  .  .  .
+```
+
+## Trước khi gọi bé
+
+- Dựng thế Xe vs Xe, tự hỏi trước mỗi nước: *“ô mình định đến có nằm trên hàng/cột của Xe kia không?”*
+- Thuộc câu: **“Đừng đứng vào đường của bạn kia.”**
+- **Đây là buổi khái niệm đầu tiên.** Không kỳ vọng bé hiểu — kỳ vọng bé **né được**.
+- Chỉ tiêu: **bé thắng 2/3**. Người lớn thua bằng cách *đi vào đường của bé*, y hệt lỗi bé hay mắc.
+
+## Lời thoại
+
+> **Ôn:** “Xe ăn bạn khác kiểu gì ấy nhỉ?” *(bé làm mẫu 1 nước là đủ)*
+> “Hôm nay hai bạn Xe đấu nhau. Ai ăn được Xe kia trước thì thắng.”
+> **Gieo hạt, CHỈ 1 LẦN:** “Có một mẹo: Xe kia cũng đi thẳng băng như Xe con. Nên **đừng đứng vào đường của bạn ấy**.” *(trượt ngón tay dọc hàng và cột của Xe kia)*
+> **Bé định đi vào ô bị ăn — CHỈ NÓI SAU KHI TAY RỜI QUÂN:** “Xe kia đi thẳng từ chỗ nó, có tới được chỗ Xe con vừa đứng không nhỉ?”
+> **Khi người lớn thua:** “Ối, bố/mẹ đứng nhầm vào đường của con rồi!”
+> **Chốt:** “Con nhìn thấy đường của Xe kia trước khi đi. Khó đấy, mà con làm được.”
+
+> ⚠ Bé đi trước ván 1 và 3; VÁN 2 NGƯỜI LỚN ĐI TRƯỚC. Đi trước là lợi thế thật — cho bé đi trước cả 3 ván sẽ đẩy tỉ lệ thắng lên gần 100%, phá chỉ tiêu 60–70%.
+
+## Bé sai thì nói gì
+
+| Bé làm gì | HÃY nói |
+|---|---|
+| Đặt Xe vào hàng/cột của Xe đối phương | **“Xe kia đi thẳng, có tới chỗ đó được không nhỉ?”** → cho đi lại |
+| Né quá mức, lùi vào góc, không tấn công | **Không sửa.** Né là kỹ năng buổi này |
+| Đi vào ô bị ăn lần thứ 3 | **Ngừng sửa.** Đổi cách: bỏ 4 xu lên các ô nguy hiểm cho bé *nhìn thấy* |
+| Thua và buồn | “Ván này bố/mẹ may thôi. Ván nữa nhé?” → cho bé đi trước, người lớn thua ván sau |
+
+## Khi nào dừng
+
+| Tình huống | Làm gì |
+|---|---|
+| Thắng ván 1 nhanh, đòi chơi tiếp | Chơi ván 2. **Buổi dễ chạm trần nhất** — dừng ở phút 11–12 |
+| Thua 2 ván liên tiếp, mặt xị | **Nguy cơ S3.** Ván 3 người lớn **chắc chắn thua**, kết buổi ngay sau đó |
+| Đi bừa, không nhìn Xe đối phương, 2 nước liền | **S2** → trò tay 60–90s → quay lại đúng 1 lần |
+| Không hiểu “đường của Xe kia” sau cả 3 ván | **Không sao.** Ghi bảng. Khái niệm quay lại ở buổi 10–11. Không lặp thêm buổi |
+
+<details><summary>Bản đầy đủ — lý do đằng sau từng bước (đọc khi rảnh, không cần đọc trước buổi)</summary>
+
 **"Xong" trông như thế nào:** **2/3 ván** bé không tự đi vào ô bị ăn.
 
 Đây là buổi **khái niệm** đầu tiên của cả chương trình. Khó hơn 3 buổi trước rõ rệt. Không kỳ vọng bé hiểu — kỳ vọng bé **né được**.
@@ -87,6 +143,8 @@ Ván 2 đổi thế sang `c3` / `f6` (cũng khác hàng khác cột ✓); ván 3
 | Bé đi bừa, không nhìn Xe đối phương, 2 nước liền | **S2** → trò tay 60–90 giây → quay lại **đúng 1 lần** → tối đa +3 phút |
 | Bé không hiểu "đường của Xe kia" sau cả 3 ván | **Không sao.** Ghi vào bảng. Khái niệm này còn quay lại ở buổi 10–11 (chiếu). Không lặp thêm buổi ở đây |
 | 2 tín hiệu | Dừng ngay. Kết bằng thế bé ăn được Xe đối phương trong 1 nước thẳng |
+
+</details>
 
 ---
 

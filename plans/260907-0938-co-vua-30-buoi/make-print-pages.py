@@ -52,12 +52,12 @@ BOARDS = {
 }
 
 SETUP_NOTE = {
-    1: "Ban TRONG. Dat lech huong co chu dich (o den goc phai duoi) de be co viec sua. 8 xu trong tui vai kin.",
-    2: "1 Xe + 5 xu. Ca 5 xu cung hang hoac cung cot voi Xe.",
-    3: "1 Xe + 5 Tot lam bia. Tot dung im, KHONG giai thich Tot di the nao.",
-    4: "2 Xe doi khang. Khac hang, khac cot — khong ai an duoc ngay.",
-    5: "1 Tuong + 5 xu, TAT CA o den. Kiem 2 buoc: mau o VA tinh toi duoc.",
-    6: "Moi ben 1 Xe + 1 Tuong. Hai Tuong cung o trang nen gap duoc nhau.",
+    1: "Bàn TRỐNG. Đặt lệch hướng có chủ đích (ô đen góc phải dưới) để bé có việc sửa. 8 xu trong túi vải kín.",
+    2: "1 Xe + 5 xu. Cả 5 xu cùng hàng hoặc cùng cột với Xe.",
+    3: "1 Xe + 5 Tốt làm bia. Tốt đứng im, KHÔNG giải thích Tốt đi thế nào.",
+    4: "2 Xe đối kháng. Khác hàng, khác cột — không ai ăn được ngay.",
+    5: "1 Tượng + 5 xu, TẤT CẢ ô đen. Kiểm 2 bước: màu ô VÀ tính tới được.",
+    6: "Mỗi bên 1 Xe + 1 Tượng. Hai Tượng cùng ô trắng nên gặp được nhau.",
 }
 
 SESSIONS = [

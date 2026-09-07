@@ -14,6 +14,46 @@ status: pending
 
 ---
 
+**Xong khi:** Bé tự quay bàn đúng hướng, **2 lần liên tiếp**
+
+## Bày bàn
+
+Bàn TRỐNG. Đặt lệch hướng có chủ đích (ô đen góc phải dưới) để bé có việc sửa. 8 xu trong túi vải kín.
+
+## Trước khi gọi bé
+
+- Đặt bàn đúng hướng 2 lần, tự soát: **ô trắng ở góc phải dưới**.
+- Thuộc một câu duy nhất: **“Ô trắng ở tay phải mình.”**
+- Buổi này **không có quân cờ nào** trên bàn. Bé hỏi tên quân → “mai mình làm quen bạn ấy”.
+
+## Lời thoại
+
+> “Con nhìn cái bàn này xem. Có gì lạ không?” *(để bé nói bất cứ gì, không sửa)*
+> “Bàn này có quy tắc buồn cười: **ô trắng phải ở tay phải mình**. Giờ ô góc phải màu gì?”
+> “Vậy mình sửa kiểu gì nhỉ?” *(để bé tự quay. Quay sai chiều → im lặng, để bé thử tiếp)*
+> “Đúng rồi! Giờ con quay lung tung đi, rồi tự sửa lại cho bố/mẹ xem.”
+> **Trò 2:** “Con lấy 1 xu, đặt đại lên bàn, rồi nói nó đứng trên ô màu gì.”
+> **Chốt:** “Con nhớ ô trắng ở tay nào rồi đấy. Mai mình cho một bạn lên bàn chơi.”
+
+## Bé sai thì nói gì
+
+| Bé làm gì | HÃY nói |
+|---|---|
+| Quay bàn sai chiều | *(im lặng 5 giây)* → “Ô góc tay phải con giờ màu gì?” |
+| Nói sai màu ô | “Con đặt ngón tay lên ô đó xem?” |
+| Đếm ô lung tung | Không sửa. Buổi này không dạy đếm ô. |
+
+## Khi nào dừng
+
+| Tình huống | Làm gì |
+|---|---|
+| Quay đúng 2 lần rồi dựng xu thành tháp | **S3** — trò đã xong việc. Chốt buổi ngay, đừng ép hết 8 xu |
+| Nhìn ra cửa sổ >5 giây, 2 lần | **S1** → trò tay 60–90s (đoán quân trong túi kín) → quay lại đúng 1 lần → tối đa +3 phút |
+| Nói “chán quá” | **S3** — nếu là tín hiệu thứ 2 → dừng ngay, kết bằng 1 lượt bé chắc chắn làm được + khen cụ thể |
+| Đúng 2 lần, mới 4 phút, vẫn hào hứng | Chơi tiếp trò xu, nhưng **dừng trước phút 11** |
+
+<details><summary>Bản đầy đủ — lý do đằng sau từng bước (đọc khi rảnh, không cần đọc trước buổi)</summary>
+
 **"Xong" trông như thế nào:** bé tự quay bàn đúng hướng, **2 lần liên tiếp**.
 
 #### ① Ôn cho người lớn — 2 phút, trước khi gọi bé
@@ -90,6 +130,8 @@ Lặp **2–3 lượt**. Lượt cuối để bé quay bàn cho *người lớn*
 - ✅ "Con quay bàn một phát trúng luôn."
 - ✅ "Con nhớ ô trắng ở tay phải, bố/mẹ không phải nhắc."
 - ❌ "Con giỏi quá" *(chung chung, không cho bé biết cái gì đúng)*
+
+</details>
 
 ---
 

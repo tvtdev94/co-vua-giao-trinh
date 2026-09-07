@@ -14,6 +14,59 @@ status: pending
 
 ---
 
+**Xong khi:** Ăn hết trong **≤6 nước** (5 nếu tối ưu — có 4 đường 5 nước)
+
+## Bày bàn
+
+1 Xe + 5 Tốt làm bia. Tốt đứng im, KHÔNG giải thích Tốt đi thế nào.
+
+```
+   a  b  c  d  e  f  g  h
+8  .  .  .  .  .  .  .  .
+7  .  .  .  .  .  .  .  .
+6  .  .  .  .  .  .  .  .
+5  p  .  .  p  .  .  .  p
+4  .  .  .  .  .  .  .  .
+3  .  .  .  .  .  .  .  .
+2  .  .  .  .  .  .  .  .
+1  X  .  .  p  .  .  .  p
+```
+
+## Trước khi gọi bé
+
+- Tự làm động tác ăn 3 lần: **nhấc quân bị ăn ra trước, rồi đặt Xe vào ô đó**.
+- Thuộc câu: **“Xe đi tới ô có quân đối phương thì mình nhấc bạn kia ra, Xe đứng vào chỗ ấy.”**
+- **CẢNH BÁO:** Tốt hôm nay chỉ làm bia. **Không giải thích Tốt đi thế nào.** Bé hỏi → “mấy bạn này hôm nay đứng im thôi, mai mốt mình mới làm quen”.
+
+## Lời thoại
+
+> **Ôn:** “Bạn Xe đi kiểu gì ấy nhỉ?” *(bé trả lời hoặc chỉ tay — đủ rồi)*
+> “Hôm nay Xe của con gặp mấy bạn **đang đứng trên bàn**. Xe đi tới chỗ bạn ấy thì bạn ấy phải ra khỏi bàn, còn Xe đứng vào đúng chỗ đó.”
+> *(làm mẫu 1 lần thật chậm: nhấc Tốt ra → đặt Xe vào)* “Con làm thử nước đầu tiên xem.”
+> “Còn mấy bạn nữa?” *(cho bé đếm, đừng đếm hộ)*
+> **Bé đi vòng vèo — KHÔNG sửa:** “8 nước! Lượt sau mình thử ít hơn xem có được không.”
+> **Chốt:** “Con dọn sạch bàn trong ___ nước.” *(điền số THẬT, đừng đọc số in sẵn)*
+
+## Bé sai thì nói gì
+
+| Bé làm gì | HÃY nói |
+|---|---|
+| Nhảy Xe **qua đầu** một Tốt | *(chờ tay rời quân)* → **“Trên đường đi có ai đang đứng không nhỉ?”** |
+| Để 2 quân trên cùng 1 ô | “Một ô đứng được mấy bạn?” |
+| Nhấc Tốt ra nhưng quên đặt Xe vào | “Giờ Xe đứng ở đâu?” |
+| Hỏi “bạn Tốt đi thế nào?” | **“Hôm nay bạn ấy đứng im thôi. Mai mốt mình làm quen.”** *(tuyệt đối không giải thích)* |
+
+## Khi nào dừng
+
+| Tình huống | Làm gì |
+|---|---|
+| Lượt 1 ăn hết ≤6 nước | **Mục tiêu đã đạt.** Chơi thêm tối đa 1 lượt rồi dừng, kể cả còn thời gian |
+| Mất >10 nước ở lượt 1, bắt đầu thở dài | Bỏ bớt còn **3 Tốt** ngay ở lượt 2, đừng chờ tín hiệu thứ 2 |
+| Cầm Tốt bị ăn lên chơi | **S3** → trò tay 60–90s: đoán quân trong túi kín |
+| Đòi tự bày lại thế để chơi nữa | **Cho làm** — hoạt động bé tự chọn kéo dài chú ý tốt nhất. Vẫn dừng trước phút 12 |
+
+<details><summary>Bản đầy đủ — lý do đằng sau từng bước (đọc khi rảnh, không cần đọc trước buổi)</summary>
+
 **"Xong" trông như thế nào:** bé ăn hết trong **≤6 nước**.
 
 #### ① Ôn cho người lớn — 1 phút
@@ -84,6 +137,8 @@ Thế này **khoan dung**: có 4 đường 5 nước khác nhau, không chỉ đ
 | Bé cầm Tốt bị ăn lên chơi (cho quân "nói chuyện") | **S3**. 1 tín hiệu → trò tay 60–90 giây. Đây là **trò tay hợp nhất buổi này**: đoán quân trong túi kín |
 | Bé đòi tự bày lại thế cờ để chơi lượt nữa | Cho làm — **đây là hoạt động do trẻ tự chọn**, kéo dài chú ý tốt nhất. Vẫn dừng trước phút 12 |
 | 2 tín hiệu | Dừng ngay. Kết: đặt Xe cách 1 Tốt đúng 1 nước thẳng → "con ăn nốt bạn này rồi mình cất nhé" → bé ăn → khen cụ thể → hết buổi |
+
+</details>
 
 ---
 
