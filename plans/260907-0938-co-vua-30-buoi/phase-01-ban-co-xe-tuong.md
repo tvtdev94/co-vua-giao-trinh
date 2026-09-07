@@ -635,7 +635,7 @@ Bé đi trước.
 ### Success Criteria (điều kiện mở Phase 2)
 
 - [ ] **Buổi 1:** bé tự quay bàn đúng hướng 2 lần liên tiếp
-- [ ] **Buổi 2:** 10/10 nước Xe đi đúng đường thẳng
+- [ ] **Buổi 2:** 10/10 nước Xe đi đúng đường thẳng — **đếm cộng dồn qua 2–3 lượt**, một lượt chỉ ~6 nước nên không đủ mẫu để tick ô này
 - [ ] **Buổi 3:** ăn hết 5 Tốt bia trong ≤6 nước
 - [ ] **Buổi 4:** 2/3 ván bé không tự đi vào ô bị ăn
 - [ ] **Buổi 5:** bé tự nói được màu ô của Tượng, không cần hỏi
