@@ -12,8 +12,8 @@ blocks: []
 
 # Giáo trình 30 buổi cờ vua cho bé 5 tuổi
 
-> **Artifact chính:** [`plan.html`](./plan.html) — bản đọc được trên trình duyệt, có sơ đồ, mockup thẻ A5 và modal chi tiết từng buổi.
-> File `plan.md` này là bản chỉ mục ngắn.
+> **Artifact chính:** [`plan.html`](./plan.html) — mở bằng trình duyệt. Có sơ đồ bàn cờ vẽ sẵn cho cả 6 buổi, mockup thẻ A5, sơ đồ luồng 6 phase, và modal đọc toàn văn từng phase.
+> File `plan.md` này là bản chỉ mục ngắn. `plan.html` nhúng sẵn nội dung 6 file `phase-*.md` nên đọc offline được, nhưng **các file `.md` vẫn là bản gốc để sửa** — sửa `.md` rồi dựng lại HTML, đừng sửa ngược lại.
 
 ## Overview
 
@@ -43,10 +43,10 @@ Không phải một phase. Là điều kiện vào Phase 1. Chi tiết ở đầ
 - [ ] Bảng 30 ô trên A4 dán tủ lạnh + bút màu cho bé tô
 - [ ] Người lớn học lại Tối A + Tối B (2 × 20 phút, **không có bé**) — mục 5.1 Nhịp 1
 - [ ] **Thẻ A5 "trọng tài" viết tay** — để cạnh bàn cờ vĩnh viễn
-- [ ] Bàn cờ đặt **cố định** trên bàn thấp ngang tầm bé, bày sẵn thế buổi 1
+- [ ] Bàn cờ + hộp quân để **ngay cạnh bàn học** (không cất lên cao), bày xong ≤60 giây — xem R1
 - [ ] Câu neo thói quen viết lên bảng theo dõi ("sau ăn tối, trước tắm")
-- [ ] Chốt **HLV dự bị**, đưa họ đọc thẻ A5
-- [ ] Hẹn tìm 1 bạn 5 tuổi để chơi cùng — hạn chót buổi 20
+- [ ] Phương án bù cho **không có HLV dự bị**: "ngày duy trì" 3 phút — xem R2
+- [ ] Phương án bù cho **không có bạn cùng tuổi**: người lớn thứ hai chơi 1 ván để bé xem — xem R3
 
 ## Phases
 
@@ -67,7 +67,7 @@ Không phải một phase. Là điều kiện vào Phase 1. Chi tiết ở đầ
 
 Nguyên văn từ bản tư vấn, không sửa. Chi tiết đầy đủ + lời thoại ở `phase-01`.
 
-1. **Quy tắc 3 tín hiệu (5.3)** — S1 rời mắt >5s ×2 liên tiếp · S2 đi bừa 2 nước liền · S3 nói không muốn / chơi quân như đồ chơi. 1 tín hiệu → trò tay 60–90s, quay lại đúng 1 lần, tối đa +3 phút. 2 tín hiệu → **dừng ngay**. Hết 15 phút mà bé vẫn muốn → **vẫn dừng**.
+1. **Quy tắc 3 tín hiệu (5.3)** — S1 rời mắt >5s ×2 liên tiếp · S2 đi bừa 2 nước liền · S3 nói không muốn / chơi quân như đồ chơi. 1 tín hiệu → trò tay 60–90s, quay lại đúng 1 lần, tối đa +3 phút. 2 tín hiệu → **dừng ngay**. **3 tín hiệu / bé phản kháng hoặc khóc → dừng ngay, bỏ luôn nội dung buổi đó, KHÔNG tính là buổi đã hoàn thành**, lần sau lặp lại ở phiên bản dễ hơn. Hết 15 phút mà bé vẫn muốn → **vẫn dừng**.
 2. **Giao thức sửa lỗi 1-nước (5.4)** — không dùng chữ "sai"; chỉ sửa nước VỪA đi; im lặng khi bé đang nghĩ; sai cùng 1 luật 3 lần → không sửa lần 4, ghi lại; người lớn cố tình đi sai 1 nước mỗi 2–3 buổi để bé bắt lỗi.
 3. **Trần màn hình (5.5)** — **0 phút màn hình cho bé trong toàn Phase 1**. Mở khóa từ sau buổi 17: ≤10 phút/lần, ≤2 lần/tuần, tổng ≤60 phút/30 buổi. Cấm Puzzle Duel, cấm chơi online. Cap không áp cho người lớn (lichess.org/learn).
 
@@ -81,8 +81,10 @@ Nghiệm thu ở buổi 30, đối chiếu mục 8 của bản tư vấn.
 - [ ] CỬA 1 và CỬA 2 đều ≥11/12
 - [ ] ≥4 lần bé tự đòi chơi trong 7 ngày cuối; sau ván mốc bé đòi chơi tiếp = **Có**
 - [ ] ≤20% buổi bị dừng sớm vì hết hứng (≤6/30)
+- [ ] **Số đợt "nghỉ 3 ngày" phải kích hoạt: ≤1** *(cảnh báo sớm cho leo thang 5.3 — 2 đợt là ngưỡng nghỉ 2 tuần)*
 - [ ] Trung vị thời gian ngồi tự nguyện buổi 26–30 ≥12 phút (tăng ≥50% so với buổi 1–5)
 - [ ] 30 buổi trong ≤45 ngày; ≤8 "ngày duy trì" 3 phút; bảng ghi đủ 3 số ≥27/30 buổi
+- [ ] **Không có chuỗi ≥3 ngày không có buổi nào** (kể cả buổi tối thiểu 3 phút), ngoài đợt nghỉ chủ đích
 - [ ] Tổng app ≤60 phút, ≤8 lần dùng, 0 lần Puzzle Duel/online/tính điểm
 
 **Nghiệm thu riêng cho Phase 1** (điều kiện vào Phase 2): xem `phase-01` → Success Criteria.
@@ -122,5 +124,50 @@ Ba lựa chọn của phụ huynh lệch khỏi khuyến nghị của bản tư 
 **R3 — Không có bạn cùng tuổi.** Bản tư vấn xếp đây là đòn đơn lẻ mạnh nhất lên chỉ số "bé tự đòi chơi" (hạn chót buổi 20).
 → **Bù (không tốn tiền):** người lớn thứ hai trong nhà chơi **một ván với bé làm khán giả** (bé thấy cờ là việc người lớn cũng chơi, không phải bài tập); anh/chị/em họ dịp cuối tuần; bé "dạy lại" ông bà/gấu bông cách đi quân Xe — dạy lại là cách củng cố mạnh, không cần đối thủ thật.
 → **Nếu tới buổi 20 chỉ số "bé tự đòi chơi" <2 lần/tuần:** đây là chỗ cần xem lại, không phải cố đẩy tiếp.
+
+## Validation Log
+
+### Session 1 — 2026-09-07
+
+**Trigger:** hoàn tất red-team sơ đồ bàn cờ Phase 1; xác nhận quyết định trước khi chốt plan.
+**Questions asked:** 3
+
+#### Verification Results
+
+- Claims checked: 6 sơ đồ bàn cờ + 30/30 dòng bản đồ buổi + 21 success metric
+- **Verified:** 3 sơ đồ đúng (buổi 1, 2, 4) · fidelity 30/30 · 0 metric bị bịa thêm hoặc làm yếu
+- **Failed:** 3 BLOCKER (buổi 3, 5, 6) · 5 MAJOR · 6 MINOR — **đã sửa toàn bộ**
+- Tier: Full (6 phase)
+- Phương pháp: dựng lại độc lập bằng script — màu ô, đường đi, quân chắn, thứ tự ăn, BFS số nước tối thiểu. Không tin nhãn tự ghi trong plan.
+- Báo cáo: `plans/reports/redteam-260907-1115-co-vua-phase1.md`
+
+#### Questions & Answers
+
+1. **[Tradeoffs]** Buổi 5 sau khi sửa: thế Tượng chỉ còn ĐÚNG MỘT thứ tự ăn hết 5 xu trong 5 nước. Xử lý thế nào?
+   - Options: Giữ nguyên, không đếm nước (Khuyến nghị) | Hạ mục tiêu: ăn 3 trong 5 xu | Đổi sang bộ dễ: 5 xu cùng một đường chéo
+   - **Answer:** Giữ nguyên, không đếm nước
+   - **Rationale:** Tiêu chí "xong" của buổi 5 là *bé tự nói được màu ô của Tượng* — không liên quan số nước. Giữ bộ trải rộng dạy được "chéo có 2 hướng"; bé đi 6–7 nước vẫn đạt. Không tồn tại bộ 5 xu vừa trải rộng vừa nhiều lời giải — đây là ràng buộc hình học của quân Tượng, không phải thiếu sót thiết kế.
+
+2. **[Assumptions]** Nguồn ghi "3 buổi LIÊN TIẾP bị dừng sớm → nghỉ 3 ngày"; phase-01 ghi "≥3 buổi trong Phase 1" (chặt hơn). Giữ cái nào?
+   - Options: Giữ bản chặt hơn cho Phase 1 (Khuyến nghị) | Đồng bộ đúng nguồn: 3 buổi liên tiếp
+   - **Answer:** Giữ bản chặt hơn cho Phase 1
+   - **Rationale:** 3/6 buổi đầu = 50%, đủ là tín hiệu thật kể cả rải rác. Phase 1 là lúc dễ nhận ra bé chưa sẵn sàng nhất. Từ Phase 2 dùng đúng nguyên văn "liên tiếp".
+
+3. **[Scope]** Sau khi sửa xong Phase 1, làm gì tiếp?
+   - Options: Dừng ở đây, commit (Khuyến nghị) | Commit + in sẵn tài liệu buổi 1 | Viết luôn Phase 2
+   - **Answer:** Dừng ở đây, commit
+   - **Rationale:** Đúng mục 2.17 — Phase 2 chỉ viết sau khi chạy thật 6 buổi và có số phút chú ý thật của bé.
+
+#### Confirmed Decisions
+
+- Buổi 5 giữ bộ xu trải rộng `b2 · a3 · c5 · e3 · g5`, **không đếm nước** — ưu tiên dạy "chéo 2 hướng" hơn dư địa sai.
+- Ngưỡng nghỉ 3 ngày của Phase 1 **chặt hơn nguồn có chủ đích** (3 buổi bất kỳ, không cần liên tiếp); Phase 2–6 dùng nguyên văn 5.3.
+- **Không viết Phase 2** cho tới khi Phase 1 chạy xong và thu đủ 5 loại dữ liệu ở mục "Dữ liệu bắt buộc thu được" của `phase-01`.
+
+#### Impact on Phases
+
+- **Phase 1:** đã áp dụng 3 BLOCKER + 5 MAJOR + 6 MINOR. Sơ đồ buổi 5 và buổi 6 thay mới hoàn toàn, verify lại bằng script.
+- **Phase 4:** mốc "bạn 5 tuổi" đổi thành phương án bù của R3 + ngưỡng kiểm ở buổi 20.
+- **Phase 2–6:** không đổi nội dung; ghi nhận ngưỡng "liên tiếp" dùng nguyên văn khi tới lượt viết chi tiết.
 
 <!-- slug: co-vua-30-buoi -->

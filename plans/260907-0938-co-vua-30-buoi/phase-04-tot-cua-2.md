@@ -45,9 +45,14 @@ Quân nhiều ngoại lệ nhất, để gần cuối: cách ăn khác cách đi
 - [ ] Luật vận hành: ≤10 phút/lần · ≤2 lần/tuần · tổng ≤60 phút cho cả 30 buổi · chỉ dùng vào ngày **đã chơi xong trên bàn** · trên máy của phụ huynh, phụ huynh **ngồi cạnh cùng xem**
 - [ ] **Không mở app vào bất kỳ ngày nào buổi bàn cờ bị cắt sớm vì bé nản** — nếu không, màn hình thành lối thoát và bàn thật thua vĩnh viễn
 
-## Mốc bạn cùng tuổi — hạn chót buổi 20
+## Mốc "có người khác để chơi cùng" — hạn chót buổi 20
 
-- [ ] Bé đã chơi với **1 bạn 5 tuổi** ít nhất 1 lần. Đây là đòn tác động lớn nhất lên chỉ số "bé tự đòi chơi" (mục 4, hạng #2).
+Bản tư vấn xếp **chơi với 1 bạn 5 tuổi** là đòn tác động lớn nhất lên chỉ số "bé tự đòi chơi" (mục 4, hạng #2). Phụ huynh đã chốt **không có bạn cùng tuổi** (R3 trong `plan.md`) → dùng phương án bù, và **theo dõi đúng chỉ số mà nó đáng lẽ phải nâng**:
+
+- [ ] Người lớn thứ hai trong nhà chơi **1 ván với bé làm khán giả** — ít nhất 1 lần
+- [ ] Bé "dạy lại" ông bà / gấu bông cách đi một quân — ít nhất 1 lần
+- [ ] Anh/chị/em họ dịp cuối tuần, **nếu có** — cơ hội, không phải yêu cầu
+- [ ] **Đo ở buổi 20:** số lần bé tự đòi chơi trong tuần. **<2 lần/tuần → dừng lại xem xét**, không cố đẩy tiếp (theo R3)
 
 ## Điều kiện viết chi tiết phase này
 
